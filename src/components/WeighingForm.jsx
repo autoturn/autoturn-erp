@@ -47,6 +47,8 @@ export function WeighingForm({
 
   const recognitionRef = useRef(null);
   const isListeningRef = useRef(false);
+  const fullAccumulatedTranscriptRef = useRef('');
+  const activeFieldRef = useRef('master');
 
   // Global Enter key press to save
   useEffect(() => {
@@ -62,7 +64,7 @@ export function WeighingForm({
     return () => window.removeEventListener('keydown', handleKeyDown);
   });
 
-  // Web Speech API Initialization with CONTINUOUS listening & auto-reconnect
+  // Web Speech API Initialization
   const startSpeechRecognition = (field = 'master') => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -73,30 +75,50 @@ export function WeighingForm({
 
     try {
       if (recognitionRef.current) {
-        recognitionRef.current.abort();
+        try {
+          recognitionRef.current.abort();
+        } catch {}
       }
 
+      const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
       const recognition = new SpeechRecognition();
-      recognition.continuous = true;       // Keep listening continuously!
-      recognition.interimResults = true;  // Fast real-time interim recognition
+      
+      // On mobile browsers, continuous=true causes repetitive restarts and OS beep sounds
+      // Setting continuous=true only on desktop, or letting mobile record fluidly until utterance ends
+      recognition.continuous = !isMobile;
+      recognition.interimResults = true;
       recognition.lang = speechLanguage;
+
+      activeFieldRef.current = field;
+      fullAccumulatedTranscriptRef.current = '';
 
       recognition.onstart = () => {
         isListeningRef.current = true;
         setIsListening(true);
         setActiveFieldMic(field);
         setTranscript('');
-        setVoiceNotification('Listening continuously (Silent mode)... Speak machine, AI no, qty found, operator');
+        setVoiceNotification('Listening... Speak complete data: AI no, quantity, operator, machine');
       };
 
       recognition.onresult = (event) => {
-        let currentTranscript = '';
-        for (let i = event.resultIndex; i < event.results.length; i++) {
-          currentTranscript += event.results[i][0].transcript;
+        let interimText = '';
+        let finalizedText = '';
+
+        for (let i = 0; i < event.results.length; i++) {
+          const res = event.results[i];
+          if (res.isFinal) {
+            finalizedText += res[0].transcript + ' ';
+          } else {
+            interimText += res[0].transcript;
+          }
         }
-        if (currentTranscript.trim().length > 0) {
-          setTranscript(currentTranscript);
-          processVoiceInput(currentTranscript, field);
+
+        const combinedText = (finalizedText + interimText).trim();
+        if (combinedText.length > 0) {
+          setTranscript(combinedText);
+          fullAccumulatedTranscriptRef.current = combinedText;
+          // Process entire accumulated speech at once
+          processVoiceInput(combinedText, activeFieldRef.current);
         }
       };
 
@@ -107,20 +129,20 @@ export function WeighingForm({
           setIsListening(false);
           setActiveFieldMic(null);
           setVoiceNotification('Microphone permission blocked. Please allow mic in browser settings.');
+        } else if (event.error === 'no-speech') {
+          // Normal timeout if nothing spoken, do not spam alerts
         }
       };
 
       recognition.onend = () => {
-        // Automatically restart if user hasn't explicitly clicked to stop
-        if (isListeningRef.current) {
-          try {
-            recognition.start();
-          } catch {
-            // Already active
-          }
-        } else {
-          setIsListening(false);
-          setActiveFieldMic(null);
+        // If on mobile or single-pass mode, finalize speech smoothly without abrupt restarts
+        setIsListening(false);
+        setActiveFieldMic(null);
+        isListeningRef.current = false;
+
+        // Final pass on whatever was accumulated
+        if (fullAccumulatedTranscriptRef.current.trim()) {
+          processVoiceInput(fullAccumulatedTranscriptRef.current, activeFieldRef.current);
         }
       };
 
@@ -140,9 +162,7 @@ export function WeighingForm({
     if (recognitionRef.current) {
       try {
         recognitionRef.current.stop();
-      } catch {
-        // ignore
-      }
+      } catch {}
     }
     setIsListening(false);
     setActiveFieldMic(null);
