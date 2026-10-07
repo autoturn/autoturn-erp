@@ -1,0 +1,3572 @@
+[
+  {
+    "aiNumber": "AI-1",
+    "totalSchedule": 80000,
+    "machineCategory": "Sliding Head",
+    "partName": "252305146701-60 BALL END TAPPET",
+    "partNo": "ZBOPADSC200009"
+  },
+  {
+    "aiNumber": "AI-2",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "PLUG FLYWHEEL HSG 252703119902",
+    "partNo": "252703119902"
+  },
+  {
+    "aiNumber": "AI-3",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "X3314115"
+  },
+  {
+    "aiNumber": "AI-4",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "269126406702 DOWEL PIN (DRIVE UNIT APP/PTO)",
+    "partNo": "269126406702"
+  },
+  {
+    "aiNumber": "AI-5",
+    "totalSchedule": 200,
+    "machineCategory": "CNC",
+    "partName": "SCREW VALVE ADJUSTIING DZ101809",
+    "partNo": "T4.430.01.0.00"
+  },
+  {
+    "aiNumber": "AI-6",
+    "totalSchedule": 65000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN",
+    "partNo": "3108732R1"
+  },
+  {
+    "aiNumber": "AI-7",
+    "totalSchedule": 117,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN SPRING FRONT 265732106702",
+    "partNo": "265732106702"
+  },
+  {
+    "aiNumber": "AI-8",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "320/01582 DOWEL FLATED",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-10",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "CROSS HEAD VALVE",
+    "partNo": "147389"
+  },
+  {
+    "aiNumber": "AI-11",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "4944192 SCREW RKR LEVER ADJ",
+    "partNo": "4944192"
+  },
+  {
+    "aiNumber": "AI-12",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "3900706 SCREW ROCKER ADJ",
+    "partNo": "3900706"
+  },
+  {
+    "aiNumber": "AI-13",
+    "totalSchedule": 2311,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 3212620674",
+    "partNo": "3212620674"
+  },
+  {
+    "aiNumber": "AI-14",
+    "totalSchedule": 4677,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 3212620774",
+    "partNo": "3212620774"
+  },
+  {
+    "aiNumber": "AI-15",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "250826206701 RETENTION PIN",
+    "partNo": "250826206701"
+  },
+  {
+    "aiNumber": "AI-16",
+    "totalSchedule": 1677,
+    "machineCategory": "Sliding Head",
+    "partName": "250826206702 RETENTION PIN",
+    "partNo": "250826206702"
+  },
+  {
+    "aiNumber": "AI-18",
+    "totalSchedule": 692,
+    "machineCategory": "Sliding Head",
+    "partName": "250526515901 SLIDING KEY",
+    "partNo": "250526515901"
+  },
+  {
+    "aiNumber": "AI-19",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "251526515901 SLIDING KEY",
+    "partNo": "251526515901"
+  },
+  {
+    "aiNumber": "AI-20",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SLIDE PIN-3212670025",
+    "partNo": "3212670025"
+  },
+  {
+    "aiNumber": "AI-21",
+    "totalSchedule": 3500,
+    "machineCategory": "Sliding Head",
+    "partName": "7700000368/ PIN REVERSE INHIBITOR 584326708002",
+    "partNo": "584326708002/(7700000368A/Pin)"
+  },
+  {
+    "aiNumber": "AI-22",
+    "totalSchedule": 10000,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "RAWMADSC400045"
+  },
+  {
+    "aiNumber": "AI-23",
+    "totalSchedule": 692,
+    "machineCategory": "Sliding Head",
+    "partName": "250526716701 PIN SWING LEVER",
+    "partNo": "250526716701"
+  },
+  {
+    "aiNumber": "AI-24",
+    "totalSchedule": 3500,
+    "machineCategory": "Sliding Head",
+    "partName": "7700000369A/ BARREL, CENTRAL DETENT 584326709901",
+    "partNo": "584326709901/(7700000369A)"
+  },
+  {
+    "aiNumber": "AI-25",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "570901139902 CLAMP OIL SUM MOUNT",
+    "partNo": "253418179923"
+  },
+  {
+    "aiNumber": "AI-27",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PLUG SPEEDOMETER DRIVE",
+    "partNo": "1532640055"
+  },
+  {
+    "aiNumber": "AI-28",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "SCREW FOR CUMINS RKR ARM ASSLY PART 5577501",
+    "partNo": "5577501"
+  },
+  {
+    "aiNumber": "AI-30",
+    "totalSchedule": 12000,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN 288032404804",
+    "partNo": "288032404804"
+  },
+  {
+    "aiNumber": "AI-31",
+    "totalSchedule": 9900,
+    "machineCategory": "Sliding Head",
+    "partName": "R.A.SCREW02.024.13.0.03",
+    "partNo": "ZBOPSCRW200505"
+  },
+  {
+    "aiNumber": "AI-32",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "10.147.14.000 ROCKER ADJ. SCREW",
+    "partNo": "10.147.14.0.03"
+  },
+  {
+    "aiNumber": "AI-33",
+    "totalSchedule": 80000,
+    "machineCategory": "Sliding Head",
+    "partName": "GPP/S/11/382/00 SWARAJ ENGINE ADJ SCREW",
+    "partNo": "ZBOPSCRW200218"
+  },
+  {
+    "aiNumber": "AI-34",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "3212650148"
+  },
+  {
+    "aiNumber": "AI-38",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "269126706703 RETAINER PIN(HSG BLK SPRING)",
+    "partNo": "269126706703"
+  },
+  {
+    "aiNumber": "AI-39",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "570901139901 CLAMP",
+    "partNo": "570901139901"
+  },
+  {
+    "aiNumber": "AI-40",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "BUSH 271526713413",
+    "partNo": "271526713413"
+  },
+  {
+    "aiNumber": "AI-41",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "269126706704 PIN GEAR SHIFT LEVER",
+    "partNo": "269126706704"
+  },
+  {
+    "aiNumber": "AI-43",
+    "totalSchedule": 60000,
+    "machineCategory": "CNC",
+    "partName": "00001BBOM2630 TEPPED ADJUSTING SCREW",
+    "partNo": "M263.02"
+  },
+  {
+    "aiNumber": "AI-44",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "271526716701 PRESSURE PIECE",
+    "partNo": "271526716701"
+  },
+  {
+    "aiNumber": "AI-45",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "X3314215"
+  },
+  {
+    "aiNumber": "AI-46",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "269126706705 PLUNGER",
+    "partNo": "269126706705"
+  },
+  {
+    "aiNumber": "AI-47",
+    "totalSchedule": 698,
+    "machineCategory": "Sliding Head",
+    "partName": "272425606701 BALL PIN (CLUTCH RELEASE)",
+    "partNo": "272425606701"
+  },
+  {
+    "aiNumber": "AI-48",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "269126706502 RETINR BOLT NDL BRG",
+    "partNo": "269126706502"
+  },
+  {
+    "aiNumber": "AI-49",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "584626717901"
+  },
+  {
+    "aiNumber": "AI-52",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "269126106701 PIN GEAR BOX HOUSING",
+    "partNo": "269126106701"
+  },
+  {
+    "aiNumber": "AI-55",
+    "totalSchedule": 80000,
+    "machineCategory": "Sliding Head",
+    "partName": "GPP/S/11/340/00 ADJ SCREW HINO",
+    "partNo": "X3507615"
+  },
+  {
+    "aiNumber": "AI-56",
+    "totalSchedule": 498,
+    "machineCategory": "Sliding Head",
+    "partName": "250526713410 INTERLOCK PIN",
+    "partNo": "250526713410"
+  },
+  {
+    "aiNumber": "AI-57",
+    "totalSchedule": 870,
+    "machineCategory": "CNC",
+    "partName": "PIN (FOR ACTUATOR SIDE) GP3.011.95.0.PR",
+    "partNo": "GP3.011.95.0.PR"
+  },
+  {
+    "aiNumber": "AI-58",
+    "totalSchedule": 880,
+    "machineCategory": "CNC",
+    "partName": "PIN (FOR FIP RACK SIDE ) GP3.011.96.00PR",
+    "partNo": "GP3.011.96.0.PR"
+  },
+  {
+    "aiNumber": "AI-59",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "PIN (FOR ACTUATOR SIDE) GP3.011.102.0PR",
+    "partNo": "GP3.011.102.0.PR"
+  },
+  {
+    "aiNumber": "AI-60",
+    "totalSchedule": 3000,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN 584126106701",
+    "partNo": "584126106701"
+  },
+  {
+    "aiNumber": "AI-61",
+    "totalSchedule": 26751,
+    "machineCategory": "Sliding Head",
+    "partName": "13050507160 CYL PIN 6M6*16 IS2393",
+    "partNo": "13050507160"
+  },
+  {
+    "aiNumber": "AI-62",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN",
+    "partNo": "3129911205"
+  },
+  {
+    "aiNumber": "AI-64",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "570901158404 SLEEVE CYL HEAD",
+    "partNo": "570901158404"
+  },
+  {
+    "aiNumber": "AI-65",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "570901158405 PROTECTIVE SLEEVE LOWER",
+    "partNo": "570901158405"
+  },
+  {
+    "aiNumber": "AI-66",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "GP4.005.09.0.PR"
+  },
+  {
+    "aiNumber": "AI-67",
+    "totalSchedule": 6000,
+    "machineCategory": "Sliding Head",
+    "partName": "268826206702 RETENTION PIN",
+    "partNo": "268826206702"
+  },
+  {
+    "aiNumber": "AI-70",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "D1.015.01.0.00 ROCKER SCREW",
+    "partNo": "D1.015.01.0.03"
+  },
+  {
+    "aiNumber": "AI-73",
+    "totalSchedule": 7100,
+    "machineCategory": "Sliding Head",
+    "partName": "CYL PIN 5M6*30 IS2393 -13050506309",
+    "partNo": "13050506309"
+  },
+  {
+    "aiNumber": "AI-74",
+    "totalSchedule": 25000,
+    "machineCategory": "Sliding Head",
+    "partName": "Screw",
+    "partNo": "A0009939960/A9060550021"
+  },
+  {
+    "aiNumber": "AI-75",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-77",
+    "totalSchedule": 30000,
+    "machineCategory": "VMC / Milling",
+    "partName": "53401007148 ADJUSTING BOLT",
+    "partNo": "53401007148"
+  },
+  {
+    "aiNumber": "AI-78",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "SCREW FOR CUMINS RKR ARM ASSLY PART 5577501",
+    "partNo": "6384165"
+  },
+  {
+    "aiNumber": "AI-81",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "ORIFICE F- 446386.02-0071",
+    "partNo": "F446386.02-0071/PBOT01"
+  },
+  {
+    "aiNumber": "AI-85",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "SCREW VALVE ADJUSTING R515577",
+    "partNo": "R515577"
+  },
+  {
+    "aiNumber": "AI-86",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SLEEVE 271526718402",
+    "partNo": "271526718402"
+  },
+  {
+    "aiNumber": "AI-89",
+    "totalSchedule": 100,
+    "machineCategory": "Sliding Head",
+    "partName": "SPRING PIN REAR 264132406701",
+    "partNo": "264132406701"
+  },
+  {
+    "aiNumber": "AI-94",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "FILLER PLUG 582726107201",
+    "partNo": "582726107201"
+  },
+  {
+    "aiNumber": "AI-95",
+    "totalSchedule": 5000,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER (PLANET ROLLERS) 582726208603",
+    "partNo": "582726208603"
+  },
+  {
+    "aiNumber": "AI-96",
+    "totalSchedule": 20000,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "ZBOPPINX200476"
+  },
+  {
+    "aiNumber": "AI-98",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 271526716714",
+    "partNo": "271526716714"
+  },
+  {
+    "aiNumber": "AI-100",
+    "totalSchedule": 10000,
+    "machineCategory": "CNC",
+    "partName": "R504728 SCREW VALVE ADJ",
+    "partNo": "R504728"
+  },
+  {
+    "aiNumber": "AI-101",
+    "totalSchedule": 6000,
+    "machineCategory": "Sliding Head",
+    "partName": "SPHERICAL WASHER 289832409204",
+    "partNo": "289832409204"
+  },
+  {
+    "aiNumber": "AI-102",
+    "totalSchedule": 2250,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "F6.007.19.0.00"
+  },
+  {
+    "aiNumber": "AI-103",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Rocker Adjusting Screw (8X1)",
+    "partNo": "J1.020.05.0.00"
+  },
+  {
+    "aiNumber": "AI-104",
+    "totalSchedule": 2000,
+    "machineCategory": "CNC",
+    "partName": "SCREW VALVE ADJUSTING R515577",
+    "partNo": "3082438"
+  },
+  {
+    "aiNumber": "AI-105",
+    "totalSchedule": 25000,
+    "machineCategory": "CNC",
+    "partName": "SCREW VALVE ADJ.DZ101809",
+    "partNo": "DZ101809"
+  },
+  {
+    "aiNumber": "AI-108",
+    "totalSchedule": 100,
+    "machineCategory": "Rolling",
+    "partName": "D1.131.04.0.00 ROLLER",
+    "partNo": "D1.131.04.0.00"
+  },
+  {
+    "aiNumber": "AI-109",
+    "totalSchedule": 0,
+    "machineCategory": "Rolling",
+    "partName": "D1.131.05.0.00 ROLLER PIN",
+    "partNo": "D1.131.05.0.02"
+  },
+  {
+    "aiNumber": "AI-110",
+    "totalSchedule": 1200,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT 1/2 07656390765 - 22612090001P55P",
+    "partNo": "6390765(1/2)/22612090001P55P"
+  },
+  {
+    "aiNumber": "AI-111",
+    "totalSchedule": 1600,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT 3/4 07666390766 - 22612090002P55P",
+    "partNo": "6390766(3/4)/22612090002P55P"
+  },
+  {
+    "aiNumber": "AI-112",
+    "totalSchedule": 2400,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT 5TH 07676380767 - 22612090003P55P",
+    "partNo": "6390767(5)/22612090003P55P"
+  },
+  {
+    "aiNumber": "AI-113",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT REV GR 07686390768 - 22612090004P55P",
+    "partNo": "6390768(reverse)/22612090004P55P"
+  },
+  {
+    "aiNumber": "AI-114",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN INTERLCOK/SHIFT FINGER 271526716712",
+    "partNo": "271526716712"
+  },
+  {
+    "aiNumber": "AI-117",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "DETENT PLUG 271526717202",
+    "partNo": "271526717202"
+  },
+  {
+    "aiNumber": "AI-118",
+    "totalSchedule": 65000,
+    "machineCategory": "Sliding Head",
+    "partName": "269126510120 DETENT BODY ASLY",
+    "partNo": "269126510120"
+  },
+  {
+    "aiNumber": "AI-119",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN , DETENT 584126716704",
+    "partNo": "584126716704"
+  },
+  {
+    "aiNumber": "AI-120",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "00002BSAM3270 SCREW CROSSHEAD ADJUSTING",
+    "partNo": "M327-06"
+  },
+  {
+    "aiNumber": "AI-121",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SCREW PLUG 271526717201",
+    "partNo": "285426516701"
+  },
+  {
+    "aiNumber": "AI-122",
+    "totalSchedule": 1200,
+    "machineCategory": "Sliding Head",
+    "partName": "285426516701 INTERLOCK PIN",
+    "partNo": "285426516701"
+  },
+  {
+    "aiNumber": "AI-123",
+    "totalSchedule": 600,
+    "machineCategory": "Sliding Head",
+    "partName": "INTERLOCK PIN 5TH 285426516702",
+    "partNo": "285426516702"
+  },
+  {
+    "aiNumber": "AI-124",
+    "totalSchedule": 700,
+    "machineCategory": "Sliding Head",
+    "partName": "285426706701 DETENT REVERSE",
+    "partNo": "285426706701"
+  },
+  {
+    "aiNumber": "AI-125",
+    "totalSchedule": 1700,
+    "machineCategory": "Sliding Head",
+    "partName": "PLANET PIN, GEAR BOX 584126207903",
+    "partNo": "584126207903"
+  },
+  {
+    "aiNumber": "AI-126",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "TA65 SHAFT 1-2,1316/C - 50011583",
+    "partNo": "285626511601(1316)"
+  },
+  {
+    "aiNumber": "AI-127",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "TA65 SHAFT 3-4 , 1317/C - 50011584",
+    "partNo": "285626511602(1317)"
+  },
+  {
+    "aiNumber": "AI-128",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "TA65 SHAFT 5-6, 1318/B - 50011585",
+    "partNo": "285626511603(1318)"
+  },
+  {
+    "aiNumber": "AI-129",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "C071803010301 BALL PIN",
+    "partNo": "B95035001/C-071803-010301"
+  },
+  {
+    "aiNumber": "AI-130",
+    "totalSchedule": 3500,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M18X1.5 F2S05211",
+    "partNo": "F2S05211"
+  },
+  {
+    "aiNumber": "AI-131",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "12920965/21320520003P13P"
+  },
+  {
+    "aiNumber": "AI-132",
+    "totalSchedule": 0,
+    "machineCategory": "Rolling",
+    "partName": "ROLLER DETENT 21122950003P55P",
+    "partNo": "12920966/21122950003P55P"
+  },
+  {
+    "aiNumber": "AI-133",
+    "totalSchedule": 2000,
+    "machineCategory": "CNC",
+    "partName": "BALL SEAT DETENT ASY 30036800002S11P",
+    "partNo": "12920964/30036800002S11P"
+  },
+  {
+    "aiNumber": "AI-135",
+    "totalSchedule": 100285,
+    "machineCategory": "Sliding Head",
+    "partName": "WASHER ,B-MOUNT - 544224103406",
+    "partNo": "00934171570E"
+  },
+  {
+    "aiNumber": "AI-142",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "20530916/21122040013P55P"
+  },
+  {
+    "aiNumber": "AI-144",
+    "totalSchedule": 1000,
+    "machineCategory": "CNC",
+    "partName": "4067809 SCREW ADJ",
+    "partNo": "4067809"
+  },
+  {
+    "aiNumber": "AI-146",
+    "totalSchedule": 0,
+    "machineCategory": "VMC / Milling",
+    "partName": "Precision Turned Part",
+    "partNo": "2053917"
+  },
+  {
+    "aiNumber": "AI-147",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-149",
+    "totalSchedule": 1800,
+    "machineCategory": "Sliding Head",
+    "partName": "INTERLOCK PIN ( FWD)285426516706",
+    "partNo": "285426516706"
+  },
+  {
+    "aiNumber": "AI-150",
+    "totalSchedule": 1200,
+    "machineCategory": "Sliding Head",
+    "partName": "285426516705 INTERLOCK PIN",
+    "partNo": "285426516705"
+  },
+  {
+    "aiNumber": "AI-161",
+    "totalSchedule": 34566,
+    "machineCategory": "Sliding Head",
+    "partName": "251626716705 PRESSURE PIECE 16M",
+    "partNo": "251626716705"
+  },
+  {
+    "aiNumber": "AI-163",
+    "totalSchedule": 25000,
+    "machineCategory": "Sliding Head",
+    "partName": "F4231711 VALVE FILTER SAFETY (SBC 100081)",
+    "partNo": "F4231711"
+  },
+  {
+    "aiNumber": "AI-164",
+    "totalSchedule": 774,
+    "machineCategory": "Sliding Head",
+    "partName": "250530106701 PIVOT PIN",
+    "partNo": "250530106701"
+  },
+  {
+    "aiNumber": "AI-167",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "50226 SCREW VALVE LEVER ADJ",
+    "partNo": "50226"
+  },
+  {
+    "aiNumber": "AI-169",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "ADJUSTING SCREW HFB72-1DICV - 591817C03",
+    "partNo": "591817C03"
+  },
+  {
+    "aiNumber": "AI-172",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "LEYLAND FLYWHEEL PEG F4830015",
+    "partNo": "F4830015"
+  },
+  {
+    "aiNumber": "AI-174",
+    "totalSchedule": 90000,
+    "machineCategory": "Sliding Head",
+    "partName": "TAPPET ADJUSTING SCREW 000020062E05",
+    "partNo": "72C20001"
+  },
+  {
+    "aiNumber": "AI-175",
+    "totalSchedule": 40000,
+    "machineCategory": "CNC",
+    "partName": "PLUNGER OIL CONTROL VALVE 5570468",
+    "partNo": "5570468"
+  },
+  {
+    "aiNumber": "AI-176",
+    "totalSchedule": 185,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "K12.042.03.0.PR"
+  },
+  {
+    "aiNumber": "AI-177",
+    "totalSchedule": 170,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "K12.042.04.0.PR"
+  },
+  {
+    "aiNumber": "AI-178",
+    "totalSchedule": 30000,
+    "machineCategory": "CNC",
+    "partName": "PLUNGER BRAKE ACTUATOR",
+    "partNo": "5347176"
+  },
+  {
+    "aiNumber": "AI-181",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "REVERSE IDLER SHAFT",
+    "partNo": "250530177901"
+  },
+  {
+    "aiNumber": "AI-182",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "REVERSE IDLER SHAFT",
+    "partNo": "251626357905"
+  },
+  {
+    "aiNumber": "AI-183",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT REVERSE IDLER",
+    "partNo": "285226357901"
+  },
+  {
+    "aiNumber": "AI-184",
+    "totalSchedule": 20500,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER (SHIFTER SHAFT) 285126708602",
+    "partNo": "285126708602"
+  },
+  {
+    "aiNumber": "AI-185",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "ADJUSTING SCREW 6477181",
+    "partNo": "6477181"
+  },
+  {
+    "aiNumber": "AI-186",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "271526716703 PRESURE PIECE",
+    "partNo": "271526716703"
+  },
+  {
+    "aiNumber": "AI-187",
+    "totalSchedule": 10000,
+    "machineCategory": "Sliding Head",
+    "partName": "Hardened Washer",
+    "partNo": "254707129201"
+  },
+  {
+    "aiNumber": "AI-188",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SEALING PLUG",
+    "partNo": "00936022220E"
+  },
+  {
+    "aiNumber": "AI-190",
+    "totalSchedule": 15000,
+    "machineCategory": "Sliding Head",
+    "partName": "ADJUSTING BOLT M10 X 1-6G NEPTUNE",
+    "partNo": "RAWMNTBT400043"
+  },
+  {
+    "aiNumber": "AI-191",
+    "totalSchedule": 19000,
+    "machineCategory": "Sliding Head",
+    "partName": "ADJUSTING BOLT-M8 X 1-6G (NEPTUNE)",
+    "partNo": "RAWMNTBT400044"
+  },
+  {
+    "aiNumber": "AI-192",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT 581326357901",
+    "partNo": "581326357901"
+  },
+  {
+    "aiNumber": "AI-193",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "DVO.007.17.0.00 TOE FOR ROCKER LEVER",
+    "partNo": "DV0.007.17.0.00"
+  },
+  {
+    "aiNumber": "AI-194",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "BALL STUD 547174306702",
+    "partNo": "547174306702"
+  },
+  {
+    "aiNumber": "AI-196",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "TA5260 SHAFT 1-2, 1322/D - 50011586",
+    "partNo": "285326511610/WO_1322/D"
+  },
+  {
+    "aiNumber": "AI-197",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "TA5260 SHAFT 3-4,1323/C - 50011587",
+    "partNo": "285326511611/WO_1323/C"
+  },
+  {
+    "aiNumber": "AI-198",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "PLUNGER D16.036.27.0.PR",
+    "partNo": "D16.036.27.0.PR"
+  },
+  {
+    "aiNumber": "AI-199",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "ADJUSTING SCREW POPPET",
+    "partNo": "591811C01"
+  },
+  {
+    "aiNumber": "AI-201",
+    "totalSchedule": 11132,
+    "machineCategory": "Sliding Head",
+    "partName": "285526516702 INTERLOCK PIN",
+    "partNo": "285526516702"
+  },
+  {
+    "aiNumber": "AI-203",
+    "totalSchedule": 5988,
+    "machineCategory": "Sliding Head",
+    "partName": "PLUNGER (FOR 5TH/6TH/REV.SHIFT)285526515116",
+    "partNo": "285526515116"
+  },
+  {
+    "aiNumber": "AI-204",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "582326706702"
+  },
+  {
+    "aiNumber": "AI-209",
+    "totalSchedule": 8598,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN ADJ TYPE 272425606705",
+    "partNo": "272425606705"
+  },
+  {
+    "aiNumber": "AI-211",
+    "totalSchedule": 32000,
+    "machineCategory": "Sliding Head",
+    "partName": "59181101 ADJUSTING SCREW 3/8*24UNF",
+    "partNo": "59181101"
+  },
+  {
+    "aiNumber": "AI-212",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "59181102 ADJUSTING SCREW 3/8*24UNF",
+    "partNo": "59181102"
+  },
+  {
+    "aiNumber": "AI-213",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "REVERSE DETENT",
+    "partNo": "582326709901"
+  },
+  {
+    "aiNumber": "AI-217",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "B138103530074"
+  },
+  {
+    "aiNumber": "AI-219",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "BALL STUD 72541-1121",
+    "partNo": "72541-1121"
+  },
+  {
+    "aiNumber": "AI-221",
+    "totalSchedule": 20000,
+    "machineCategory": "CNC",
+    "partName": "BALL PIN 1782110",
+    "partNo": "1782110"
+  },
+  {
+    "aiNumber": "AI-222",
+    "totalSchedule": 1200,
+    "machineCategory": "CNC",
+    "partName": "320/07038 PUSH ROD LP FUEL PUMP",
+    "partNo": "320/07038"
+  },
+  {
+    "aiNumber": "AI-223",
+    "totalSchedule": 12000,
+    "machineCategory": "CNC",
+    "partName": "00003BSRM5700 SCREW ROCKER LEVER ADJ",
+    "partNo": "2887033"
+  },
+  {
+    "aiNumber": "AI-225",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN ADJ TYPE 272425606705",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-226",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "269126107202"
+  },
+  {
+    "aiNumber": "AI-227",
+    "totalSchedule": 17871,
+    "machineCategory": "Sliding Head",
+    "partName": "THREAD PLUNG(CEN.DET) 268426516501",
+    "partNo": "268426516501"
+  },
+  {
+    "aiNumber": "AI-229",
+    "totalSchedule": 50,
+    "machineCategory": "VMC / Milling",
+    "partName": "4H.16.13.06.0.00 INJECTOR SLEEVE",
+    "partNo": "4H.1613.06.0.00"
+  },
+  {
+    "aiNumber": "AI-235",
+    "totalSchedule": 4000,
+    "machineCategory": "CNC",
+    "partName": "320/01588 DOWEL 12X25",
+    "partNo": "320/01588"
+  },
+  {
+    "aiNumber": "AI-236",
+    "totalSchedule": 13870,
+    "machineCategory": "CNC",
+    "partName": "320/01524 DOWEL 16 DIAX30",
+    "partNo": "320/01524"
+  },
+  {
+    "aiNumber": "AI-237",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "320/01582 DOWEL FLATED",
+    "partNo": "320/01582"
+  },
+  {
+    "aiNumber": "AI-238",
+    "totalSchedule": 11610,
+    "machineCategory": "CNC",
+    "partName": "320/01583 SOLID DOWEL M10X25",
+    "partNo": "320/01583"
+  },
+  {
+    "aiNumber": "AI-239",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "570901139902 CLAMP OIL SUM MOUNT",
+    "partNo": "570901139902"
+  },
+  {
+    "aiNumber": "AI-241",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "TOE 4K&6K 4H161408OPR",
+    "partNo": "4H.1614.08.0.PR"
+  },
+  {
+    "aiNumber": "AI-243",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "ROCKER ARM 4H.1614.19.0.00",
+    "partNo": "4H.1614.19.0.PR"
+  },
+  {
+    "aiNumber": "AI-245",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SHIFTER FORK PAD 582628409901",
+    "partNo": "582628409901"
+  },
+  {
+    "aiNumber": "AI-253",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN CL.HSG/GB 6390506",
+    "partNo": "P7971298-0"
+  },
+  {
+    "aiNumber": "AI-254",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "591815D01 ADJ.SCREW 3/8*24UNF",
+    "partNo": "591815D01"
+  },
+  {
+    "aiNumber": "AI-255",
+    "totalSchedule": 15000,
+    "machineCategory": "Sliding Head",
+    "partName": "CYLENDRICAL PIN 271526516704",
+    "partNo": "271526516704"
+  },
+  {
+    "aiNumber": "AI-260",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "570701159901"
+  },
+  {
+    "aiNumber": "AI-262",
+    "totalSchedule": 4500,
+    "machineCategory": "Sliding Head",
+    "partName": "BOSS 552932403502",
+    "partNo": "552932403502"
+  },
+  {
+    "aiNumber": "AI-263",
+    "totalSchedule": 30000,
+    "machineCategory": "Sliding Head",
+    "partName": "271526208616 SPACER ROLLER BRG",
+    "partNo": "271526208616"
+  },
+  {
+    "aiNumber": "AI-266",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SLEEVEIGNITION COIL MTG F3422310",
+    "partNo": "F3422310"
+  },
+  {
+    "aiNumber": "AI-268",
+    "totalSchedule": 132000,
+    "machineCategory": "Sliding Head",
+    "partName": "X1100615 CAP VALVE STEM",
+    "partNo": "X1100615"
+  },
+  {
+    "aiNumber": "AI-270",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "20004617"
+  },
+  {
+    "aiNumber": "AI-271",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "69096501 VALVE PIN T54",
+    "partNo": "69096501"
+  },
+  {
+    "aiNumber": "AI-273",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "20004620"
+  },
+  {
+    "aiNumber": "AI-275",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "20004619"
+  },
+  {
+    "aiNumber": "AI-276",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "69091201 ROLLER AXLE T-54",
+    "partNo": "69091201"
+  },
+  {
+    "aiNumber": "AI-277",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-281",
+    "totalSchedule": 20000,
+    "machineCategory": "Sliding Head",
+    "partName": "271526716707 PRESURE PIECES",
+    "partNo": "271526716707"
+  },
+  {
+    "aiNumber": "AI-282",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "3400119000 DOME NUT FOR CYL HEAD",
+    "partNo": "34.001.19.0.07"
+  },
+  {
+    "aiNumber": "AI-283",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLP1214R610007608/8 SLEEVE",
+    "partNo": "02SLP1214R61000"
+  },
+  {
+    "aiNumber": "AI-287",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "MTU SCREW",
+    "partNo": "X57599101609"
+  },
+  {
+    "aiNumber": "AI-289",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-290",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "FG200212 IGNITION COIL MTG SLEEVE",
+    "partNo": "FG200212"
+  },
+  {
+    "aiNumber": "AI-291",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "72SG3001"
+  },
+  {
+    "aiNumber": "AI-292",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "720579"
+  },
+  {
+    "aiNumber": "AI-293",
+    "totalSchedule": 12000,
+    "machineCategory": "CNC",
+    "partName": "SCREW RKR LEVER ADJUSTING 00004BSAM6950",
+    "partNo": "M695-06"
+  },
+  {
+    "aiNumber": "AI-294",
+    "totalSchedule": 6000,
+    "machineCategory": "VMC / Milling",
+    "partName": "00005BSAM695A SCREW RKR LEVER ADJUSTING",
+    "partNo": "M695-10"
+  },
+  {
+    "aiNumber": "AI-295",
+    "totalSchedule": 3000,
+    "machineCategory": "CNC",
+    "partName": "BALL PIN 1782110",
+    "partNo": "3420653"
+  },
+  {
+    "aiNumber": "AI-296",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BUSH 584126906301",
+    "partNo": "584126906301"
+  },
+  {
+    "aiNumber": "AI-297",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-298",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "251626716703 HEX BOLT",
+    "partNo": "251626716703-61"
+  },
+  {
+    "aiNumber": "AI-300",
+    "totalSchedule": 84178,
+    "machineCategory": "Sliding Head",
+    "partName": "FILLER PLUG-269026107203",
+    "partNo": "00936014590E"
+  },
+  {
+    "aiNumber": "AI-306",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "B016064"
+  },
+  {
+    "aiNumber": "AI-307",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "1A009091 PIN",
+    "partNo": "1A007582/1A009091"
+  },
+  {
+    "aiNumber": "AI-308",
+    "totalSchedule": 30000,
+    "machineCategory": "CNC",
+    "partName": "R549178 SCREW VALVE ADJ",
+    "partNo": "R549178"
+  },
+  {
+    "aiNumber": "AI-309",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "1851601-05-034"
+  },
+  {
+    "aiNumber": "AI-311",
+    "totalSchedule": 40000,
+    "machineCategory": "Sliding Head",
+    "partName": "EBS Screw",
+    "partNo": "ZBOPNTBT200006"
+  },
+  {
+    "aiNumber": "AI-314",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "SCREW FOR CUMINS RKR ARM ASSLY PART 5577501",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-318",
+    "totalSchedule": 8000,
+    "machineCategory": "Sliding Head",
+    "partName": "263026806703 PIN ASY SHIFTER YOK",
+    "partNo": "263026806703"
+  },
+  {
+    "aiNumber": "AI-325",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "ROYAL ENFIELD ROCKER ADJUSTING SCREW 1570554",
+    "partNo": "1570554"
+  },
+  {
+    "aiNumber": "AI-328",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "F6400518OPR ROCKER LEVER ADJ. SCREW",
+    "partNo": "F6.4005.18.0.PR"
+  },
+  {
+    "aiNumber": "AI-329",
+    "totalSchedule": 25000,
+    "machineCategory": "CNC",
+    "partName": "53401007189 LOCATION PIN",
+    "partNo": "53401007189"
+  },
+  {
+    "aiNumber": "AI-330",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "02.024.14.0.00 OIL METERING SCREW",
+    "partNo": "02.024.14.0.00"
+  },
+  {
+    "aiNumber": "AI-333",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "554632108601"
+  },
+  {
+    "aiNumber": "AI-334",
+    "totalSchedule": 38300,
+    "machineCategory": "Sliding Head",
+    "partName": "16082001208 SELING PLUG M12X1.5",
+    "partNo": "16082001208"
+  },
+  {
+    "aiNumber": "AI-335",
+    "totalSchedule": 9000,
+    "machineCategory": "Sliding Head",
+    "partName": "16081002600 SEALING PLUG AM26 X 1.5",
+    "partNo": "16081002600"
+  },
+  {
+    "aiNumber": "AI-340",
+    "totalSchedule": 5780,
+    "machineCategory": "VMC / Milling",
+    "partName": "4H.1613.22.0.00 INJECTOR SLEEVE",
+    "partNo": "4H.1613.22.0.PR"
+  },
+  {
+    "aiNumber": "AI-341",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "GP3.005.24.0.PR"
+  },
+  {
+    "aiNumber": "AI-342",
+    "totalSchedule": 4014,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN (CLUCH REL.YOK PIVOT) 272425606704",
+    "partNo": "272425606704"
+  },
+  {
+    "aiNumber": "AI-345",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "5347767"
+  },
+  {
+    "aiNumber": "AI-347",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "253425106702 BALL PIN",
+    "partNo": "253425106702"
+  },
+  {
+    "aiNumber": "AI-350",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "30049761"
+  },
+  {
+    "aiNumber": "AI-359",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "washer",
+    "partNo": "556439409201"
+  },
+  {
+    "aiNumber": "AI-360",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "06511923AA"
+  },
+  {
+    "aiNumber": "AI-363",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "582326516501"
+  },
+  {
+    "aiNumber": "AI-367",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "P15.0901.126.0.PR"
+  },
+  {
+    "aiNumber": "AI-368",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "P15.0901.127.0.PR"
+  },
+  {
+    "aiNumber": "AI-369",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "P15.0901.128.0.PR"
+  },
+  {
+    "aiNumber": "AI-371",
+    "totalSchedule": 3000,
+    "machineCategory": "Sliding Head",
+    "partName": "580126706705 PIN INTERLOCK",
+    "partNo": "580126706705"
+  },
+  {
+    "aiNumber": "AI-372",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-374",
+    "totalSchedule": 10000,
+    "machineCategory": "CNC",
+    "partName": "DVO-007-15-0-00 ROCKER LEVER ADJ SCREW",
+    "partNo": "DV0.007.66.0.00"
+  },
+  {
+    "aiNumber": "AI-376",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "581326208601"
+  },
+  {
+    "aiNumber": "AI-378",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "5368307 ADJUSTING SCREW",
+    "partNo": "5368307"
+  },
+  {
+    "aiNumber": "AI-379",
+    "totalSchedule": 5000,
+    "machineCategory": "Sliding Head",
+    "partName": "591815D02 HFB51 ADJ.SCREW FOR MTBD",
+    "partNo": "591815D02"
+  },
+  {
+    "aiNumber": "AI-380",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "580126519901 BARREL DETNT REVERSE",
+    "partNo": "580126519901"
+  },
+  {
+    "aiNumber": "AI-381",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "580126709903 BARREL CEN.DETENT",
+    "partNo": "580126709903"
+  },
+  {
+    "aiNumber": "AI-382",
+    "totalSchedule": 3500,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN CL.HSG/GB 6390506",
+    "partNo": "6390701/P7971334-0"
+  },
+  {
+    "aiNumber": "AI-383",
+    "totalSchedule": 2100,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN CL.HSG/GB 6390506",
+    "partNo": "6390719/P7971340-0"
+  },
+  {
+    "aiNumber": "AI-385",
+    "totalSchedule": 200,
+    "machineCategory": "Sliding Head",
+    "partName": "251526106701 PIVOT PIN",
+    "partNo": "251526106701"
+  },
+  {
+    "aiNumber": "AI-386",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "2231979 HEX PLUG M27 X 2",
+    "partNo": "740103"
+  },
+  {
+    "aiNumber": "AI-387",
+    "totalSchedule": 20000,
+    "machineCategory": "Sliding Head",
+    "partName": "278905114801 CYN PIN (TENSIONER)",
+    "partNo": "278905114801"
+  },
+  {
+    "aiNumber": "AI-388",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Banjo bolt",
+    "partNo": "517142103201"
+  },
+  {
+    "aiNumber": "AI-391",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "CUP SPRING 9185-216",
+    "partNo": "9185-241"
+  },
+  {
+    "aiNumber": "AI-392",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "ROCKER ARM SHAFT (NEF) 000020064E05",
+    "partNo": "2006400000"
+  },
+  {
+    "aiNumber": "AI-393",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "7700000380A/BUSH (REVERSE LEVER) 580126513402",
+    "partNo": "580126513402"
+  },
+  {
+    "aiNumber": "AI-394",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-395",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-396",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "CUP SPRING 9185-216",
+    "partNo": "9185-216"
+  },
+  {
+    "aiNumber": "AI-397",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Rod,Push-9185-245",
+    "partNo": "9185-245"
+  },
+  {
+    "aiNumber": "AI-398",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "9185-258"
+  },
+  {
+    "aiNumber": "AI-402",
+    "totalSchedule": 20371,
+    "machineCategory": "Sliding Head",
+    "partName": "550733106702 COTTER PIN",
+    "partNo": "550733106702"
+  },
+  {
+    "aiNumber": "AI-406",
+    "totalSchedule": 200,
+    "machineCategory": "Sliding Head",
+    "partName": "285226706701 PRESSURE PIECE",
+    "partNo": "285226706701"
+  },
+  {
+    "aiNumber": "AI-408",
+    "totalSchedule": 321,
+    "machineCategory": "Sliding Head",
+    "partName": "585889106731 TOP END PIN",
+    "partNo": "585889106731"
+  },
+  {
+    "aiNumber": "AI-410",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "TEPL 0034 002R SCREW VALVE ROCKER L A3/8 BSF",
+    "partNo": "TEPL-034-002RLA"
+  },
+  {
+    "aiNumber": "AI-412",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "TEPL 0034 004R BSF SCREW VALVE ROCKER TP A 3/8 BSF",
+    "partNo": "TEPL-034-004RTP"
+  },
+  {
+    "aiNumber": "AI-413",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "ADJUSTING SCREW (ROCKER LEVER)K12.008.07.OPR",
+    "partNo": "K12.008.07.0.PR"
+  },
+  {
+    "aiNumber": "AI-414",
+    "totalSchedule": 1000,
+    "machineCategory": "CNC",
+    "partName": "ROCKER LEVER TOE K12.008.06.0 PR",
+    "partNo": "K12.008.06.0.PR"
+  },
+  {
+    "aiNumber": "AI-415",
+    "totalSchedule": 35000,
+    "machineCategory": "CNC",
+    "partName": "3047924 SCREW HEXAGON HEAD SET",
+    "partNo": "3047924"
+  },
+  {
+    "aiNumber": "AI-416",
+    "totalSchedule": 10000,
+    "machineCategory": "CNC",
+    "partName": "4398093 SCRE,CROSS HEAD ADJUSTING",
+    "partNo": "4095442/4398093"
+  },
+  {
+    "aiNumber": "AI-422",
+    "totalSchedule": 700,
+    "machineCategory": "Sliding Head",
+    "partName": "OIL LEVEL PLUG( G BOX )285426107203",
+    "partNo": "285426107203"
+  },
+  {
+    "aiNumber": "AI-423",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "X4200110 ENGINE RELIEF VALVE",
+    "partNo": "X4200110"
+  },
+  {
+    "aiNumber": "AI-424",
+    "totalSchedule": 5000,
+    "machineCategory": "Sliding Head",
+    "partName": "ROYAL ENFIELD ROCKER ADJUSTING SCREW 1570554",
+    "partNo": "RAWMADSC400534"
+  },
+  {
+    "aiNumber": "AI-425",
+    "totalSchedule": 13000,
+    "machineCategory": "Sliding Head",
+    "partName": "580126709904 BAREL CENTRL DTENT",
+    "partNo": "580126709904"
+  },
+  {
+    "aiNumber": "AI-427",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "16261001504 FERRULE L15 TS 16592",
+    "partNo": "16261001504"
+  },
+  {
+    "aiNumber": "AI-428",
+    "totalSchedule": 7000,
+    "machineCategory": "Sliding Head",
+    "partName": "SCREW PLUG 3520110335",
+    "partNo": "3520110335"
+  },
+  {
+    "aiNumber": "AI-429",
+    "totalSchedule": 100,
+    "machineCategory": "Sliding Head",
+    "partName": "268128407902 GUIDE SHAFT",
+    "partNo": "268128407902"
+  },
+  {
+    "aiNumber": "AI-430",
+    "totalSchedule": 14635,
+    "machineCategory": "Sliding Head",
+    "partName": "550632108602 SPACER",
+    "partNo": "550632108602"
+  },
+  {
+    "aiNumber": "AI-431",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "3212650416"
+  },
+  {
+    "aiNumber": "AI-432",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "250526713409 PRESSURE PIECE CHECK",
+    "partNo": "250526713409"
+  },
+  {
+    "aiNumber": "AI-433",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "251826713401 PRESSUREE PIECE",
+    "partNo": "251826713401"
+  },
+  {
+    "aiNumber": "AI-434",
+    "totalSchedule": 760,
+    "machineCategory": "Sliding Head",
+    "partName": "250530116701 THRUST PIN",
+    "partNo": "250530116701"
+  },
+  {
+    "aiNumber": "AI-435",
+    "totalSchedule": 399,
+    "machineCategory": "Sliding Head",
+    "partName": "251626516701 THRUST Pin",
+    "partNo": "251626516701"
+  },
+  {
+    "aiNumber": "AI-436",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "271526517906"
+  },
+  {
+    "aiNumber": "AI-437",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIPE UNIONBOLT",
+    "partNo": "254715133202"
+  },
+  {
+    "aiNumber": "AI-438",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "HOLLOW SCREW 252007148001",
+    "partNo": "252007148001"
+  },
+  {
+    "aiNumber": "AI-439",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "P15.1601.008.0.PR"
+  },
+  {
+    "aiNumber": "AI-442",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "ID312006/M895-04"
+  },
+  {
+    "aiNumber": "AI-448",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BUSH.DISTANCE PLATE-2 570905103401",
+    "partNo": "570905103401"
+  },
+  {
+    "aiNumber": "AI-451",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLN1742R60800 NIPPLE M22",
+    "partNo": "02SLN1742R60800"
+  },
+  {
+    "aiNumber": "AI-452",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "1/4\"FEN NIPPLE FOR M12 02SLN0836R60400",
+    "partNo": "02SLN0836R60400"
+  },
+  {
+    "aiNumber": "AI-453",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "1/4\"FEN NIPPLE FOR M14 02SLN1036R60400",
+    "partNo": "02SLN1036R60400"
+  },
+  {
+    "aiNumber": "AI-454",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLN1236R60600 NIPPLE M16",
+    "partNo": "02SLN1236R60600"
+  },
+  {
+    "aiNumber": "AI-455",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLN1036R60500 NIPPLE M14 NUT",
+    "partNo": "02SLN1036R60500"
+  },
+  {
+    "aiNumber": "AI-457",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "1126982"
+  },
+  {
+    "aiNumber": "AI-458",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLP0814R60600 SLEEVE FOR M12",
+    "partNo": "02SLP0814R60600"
+  },
+  {
+    "aiNumber": "AI-460",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLP1014R60800 7608-06 SLEEVE M14 NUT",
+    "partNo": "02SLP1014R60800"
+  },
+  {
+    "aiNumber": "AI-461",
+    "totalSchedule": 3000,
+    "machineCategory": "Sliding Head",
+    "partName": "285626519901 BARREL R DETENT",
+    "partNo": "00936016130E"
+  },
+  {
+    "aiNumber": "AI-463",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "3100-1502"
+  },
+  {
+    "aiNumber": "AI-464",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "WASHER (M13X34X2.5) 00934064650E",
+    "partNo": "00936020550E"
+  },
+  {
+    "aiNumber": "AI-465",
+    "totalSchedule": 10000,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN CL.HSG/GB 6390506",
+    "partNo": "P7971278-0"
+  },
+  {
+    "aiNumber": "AI-466",
+    "totalSchedule": 8600,
+    "machineCategory": "CNC",
+    "partName": "PIN SHIFT LOCK 1 6390725",
+    "partNo": "6390725/P7971330-0"
+  },
+  {
+    "aiNumber": "AI-467",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "PIN SHIFT LOCK 6390726",
+    "partNo": "6390726/P7971333-0"
+  },
+  {
+    "aiNumber": "AI-468",
+    "totalSchedule": 8000,
+    "machineCategory": "CNC",
+    "partName": "PIN SHIFT LOCK 3 6390727",
+    "partNo": "6390727/P7971327-0"
+  },
+  {
+    "aiNumber": "AI-469",
+    "totalSchedule": 2500,
+    "machineCategory": "CNC",
+    "partName": "SAFETY STOPPER 6390917",
+    "partNo": "P7971385-0"
+  },
+  {
+    "aiNumber": "AI-470",
+    "totalSchedule": 11900,
+    "machineCategory": "CNC",
+    "partName": "PIVOT PIN O924 1292 09 24",
+    "partNo": "12920924/21322690013P13P"
+  },
+  {
+    "aiNumber": "AI-471",
+    "totalSchedule": 4000,
+    "machineCategory": "Rolling",
+    "partName": "ROLLER PIN GB210 1292 09 25",
+    "partNo": "12920925/21322690001P13P"
+  },
+  {
+    "aiNumber": "AI-472",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN 216332104802",
+    "partNo": "216332104802"
+  },
+  {
+    "aiNumber": "AI-476",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "1A009307 PIN",
+    "partNo": "1A009307"
+  },
+  {
+    "aiNumber": "AI-477",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "IS2393\u00d85M6X12"
+  },
+  {
+    "aiNumber": "AI-478",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLP1716R61500 SLEEVE FOR M22 NUT",
+    "partNo": "02SLP1716R61500"
+  },
+  {
+    "aiNumber": "AI-481",
+    "totalSchedule": 75010,
+    "machineCategory": "Sliding Head",
+    "partName": "269026104803 CYL.PIN",
+    "partNo": "00936014570E"
+  },
+  {
+    "aiNumber": "AI-484",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "571518104801 DOWEL PIN,OIL PUMP MTG",
+    "partNo": "279001104803"
+  },
+  {
+    "aiNumber": "AI-485",
+    "totalSchedule": 35000,
+    "machineCategory": "Sliding Head",
+    "partName": "269026203404 BUSH(LAYSHAFT)",
+    "partNo": "269026203404"
+  },
+  {
+    "aiNumber": "AI-487",
+    "totalSchedule": 2300,
+    "machineCategory": "Sliding Head",
+    "partName": "570905100105 DIST PLATE ASY",
+    "partNo": "570905100105"
+  },
+  {
+    "aiNumber": "AI-488",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-490",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "02SLN0836R60300 3/16 NIPPLE FOR M12",
+    "partNo": "02SLN0836R60300"
+  },
+  {
+    "aiNumber": "AI-491",
+    "totalSchedule": 3566,
+    "machineCategory": "Sliding Head",
+    "partName": "268728406706 PIN",
+    "partNo": "268728406706"
+  },
+  {
+    "aiNumber": "AI-492",
+    "totalSchedule": 3566,
+    "machineCategory": "Sliding Head",
+    "partName": "268728406707 PIN",
+    "partNo": "268728406707"
+  },
+  {
+    "aiNumber": "AI-493",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "285226515901 SLIDING KEY",
+    "partNo": "285226515901"
+  },
+  {
+    "aiNumber": "AI-495",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "3222840148 LOCK BOLT",
+    "partNo": "3222840148"
+  },
+  {
+    "aiNumber": "AI-496",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-497",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-499",
+    "totalSchedule": 31590,
+    "machineCategory": "Sliding Head",
+    "partName": "STUD 00463429930E",
+    "partNo": "004634329930E"
+  },
+  {
+    "aiNumber": "AI-500",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PLUG",
+    "partNo": "257635209901"
+  },
+  {
+    "aiNumber": "AI-501",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "8075201"
+  },
+  {
+    "aiNumber": "AI-503",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-504",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "8064113"
+  },
+  {
+    "aiNumber": "AI-505",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "ADJUSTING SCREW 00001RASM7330",
+    "partNo": "M733-02"
+  },
+  {
+    "aiNumber": "AI-506",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "BALL STUD 547174306702",
+    "partNo": "8064223"
+  },
+  {
+    "aiNumber": "AI-508",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-511",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "584626516703"
+  },
+  {
+    "aiNumber": "AI-512",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "FILLER PLUG 582726107201",
+    "partNo": "265728456701"
+  },
+  {
+    "aiNumber": "AI-513",
+    "totalSchedule": 8160,
+    "machineCategory": "Sliding Head",
+    "partName": "285326357903 REV IDLER SHAFT",
+    "partNo": "00936015720E"
+  },
+  {
+    "aiNumber": "AI-514",
+    "totalSchedule": 400,
+    "machineCategory": "Sliding Head",
+    "partName": "285326208601 SPACER LAYSHAFT",
+    "partNo": "285326208601"
+  },
+  {
+    "aiNumber": "AI-515",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "8064193"
+  },
+  {
+    "aiNumber": "AI-518",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN F6C00415",
+    "partNo": "F6C00415"
+  },
+  {
+    "aiNumber": "AI-519",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN FE501311",
+    "partNo": "FE501311"
+  },
+  {
+    "aiNumber": "AI-520",
+    "totalSchedule": 6000,
+    "machineCategory": "Sliding Head",
+    "partName": "16081001204 SEALING PLUG M12 X 1.5",
+    "partNo": "16081001204"
+  },
+  {
+    "aiNumber": "AI-523",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "285326357904 REVERSE IDLER SHAFT",
+    "partNo": "285326357904"
+  },
+  {
+    "aiNumber": "AI-525",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "251526706702"
+  },
+  {
+    "aiNumber": "AI-526",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "278901136907 TUBE VACUM PUMP",
+    "partNo": "8851E6GNIJS0"
+  },
+  {
+    "aiNumber": "AI-527",
+    "totalSchedule": 20000,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN - 1808785",
+    "partNo": "1808785"
+  },
+  {
+    "aiNumber": "AI-528",
+    "totalSchedule": 400,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN ASY WITH ADP.272425600252",
+    "partNo": "272425600252"
+  },
+  {
+    "aiNumber": "AI-529",
+    "totalSchedule": 30000,
+    "machineCategory": "Sliding Head",
+    "partName": "570601158402 SLEEVE INJECTOR",
+    "partNo": "570601158402"
+  },
+  {
+    "aiNumber": "AI-534",
+    "totalSchedule": 57000,
+    "machineCategory": "CNC",
+    "partName": "PLUNGER , PRS REGULATOR 5448930",
+    "partNo": "BPRM786T"
+  },
+  {
+    "aiNumber": "AI-539",
+    "totalSchedule": 520,
+    "machineCategory": "CNC",
+    "partName": "SHAFT(FOR STOP LEVER ARM)GP3.011.51.0.PR",
+    "partNo": "GP3.011.51.0.00"
+  },
+  {
+    "aiNumber": "AI-540",
+    "totalSchedule": 710,
+    "machineCategory": "CNC",
+    "partName": "GP3.011.08.0.PR PIN ( FOR LINK)",
+    "partNo": "GP3.011.08.0.PR"
+  },
+  {
+    "aiNumber": "AI-541",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "GP3.011.11.0.PR"
+  },
+  {
+    "aiNumber": "AI-544",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "10005191"
+  },
+  {
+    "aiNumber": "AI-546",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT (FOR LOP INTERMEDIATE GEAR)",
+    "partNo": "GP3.008.11.0.PR"
+  },
+  {
+    "aiNumber": "AI-547",
+    "totalSchedule": 349632,
+    "machineCategory": "Sliding Head",
+    "partName": "16531950805PIPE UNION BOLT",
+    "partNo": "00934055940E"
+  },
+  {
+    "aiNumber": "AI-548",
+    "totalSchedule": 57220,
+    "machineCategory": "Sliding Head",
+    "partName": "279018173201 PIPE UNION BOLT",
+    "partNo": "00936006780E"
+  },
+  {
+    "aiNumber": "AI-549",
+    "totalSchedule": 37980,
+    "machineCategory": "Sliding Head",
+    "partName": "16531999049 PIPE UNION BOLT",
+    "partNo": "00936005970E"
+  },
+  {
+    "aiNumber": "AI-550",
+    "totalSchedule": 113000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIPE UNIONBOLT M12X1.5 00936006030E",
+    "partNo": "009936006030E"
+  },
+  {
+    "aiNumber": "AI-551",
+    "totalSchedule": 350,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER (R.I. GEAR) 581126358603",
+    "partNo": "581126358603"
+  },
+  {
+    "aiNumber": "AI-553",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285326517912"
+  },
+  {
+    "aiNumber": "AI-554",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285326517913"
+  },
+  {
+    "aiNumber": "AI-556",
+    "totalSchedule": 250000,
+    "machineCategory": "Sliding Head",
+    "partName": "SEALING PLUG",
+    "partNo": "00936001860E"
+  },
+  {
+    "aiNumber": "AI-557",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "50010552(3/4)"
+  },
+  {
+    "aiNumber": "AI-558",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "INTERLOCK PIN 269126516703",
+    "partNo": "269126516703"
+  },
+  {
+    "aiNumber": "AI-559",
+    "totalSchedule": 1200,
+    "machineCategory": "Sliding Head",
+    "partName": "SLEEVE ( INPUT SHAFT)285426253402",
+    "partNo": "285426253402"
+  },
+  {
+    "aiNumber": "AI-560",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285626357901"
+  },
+  {
+    "aiNumber": "AI-564",
+    "totalSchedule": 6000,
+    "machineCategory": "Sliding Head",
+    "partName": "16531999081 PIPE UNION BOLT",
+    "partNo": "16531999081"
+  },
+  {
+    "aiNumber": "AI-565",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3355415"
+  },
+  {
+    "aiNumber": "AI-566",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3355515"
+  },
+  {
+    "aiNumber": "AI-567",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3356215"
+  },
+  {
+    "aiNumber": "AI-568",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3356315"
+  },
+  {
+    "aiNumber": "AI-569",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "X3313015"
+  },
+  {
+    "aiNumber": "AI-570",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "X3313115"
+  },
+  {
+    "aiNumber": "AI-571",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "F2S05511 BANJO BOLT FOR H4 CNG BS6",
+    "partNo": "F2S05511"
+  },
+  {
+    "aiNumber": "AI-572",
+    "totalSchedule": 5000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M16X1.5 F2S05611",
+    "partNo": "F2S05611"
+  },
+  {
+    "aiNumber": "AI-573",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285426736775"
+  },
+  {
+    "aiNumber": "AI-574",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285426736776"
+  },
+  {
+    "aiNumber": "AI-575",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285426736777"
+  },
+  {
+    "aiNumber": "AI-576",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN 582726106702",
+    "partNo": "582726106702"
+  },
+  {
+    "aiNumber": "AI-577",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-578",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "265947106913"
+  },
+  {
+    "aiNumber": "AI-580",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-581",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "253415143403 BUSH",
+    "partNo": "253415143403"
+  },
+  {
+    "aiNumber": "AI-582",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 253403116701",
+    "partNo": "253403116701"
+  },
+  {
+    "aiNumber": "AI-583",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-585",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285126203402"
+  },
+  {
+    "aiNumber": "AI-589",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "M895-03"
+  },
+  {
+    "aiNumber": "AI-593",
+    "totalSchedule": 8971,
+    "machineCategory": "Sliding Head",
+    "partName": "266135308006 ADJUSTING PIN",
+    "partNo": "266135308006"
+  },
+  {
+    "aiNumber": "AI-595",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN 1782110",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-596",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "50010551 1296D-SHAFT 1-2 SHAFT 1296D",
+    "partNo": "50010551(1/2)"
+  },
+  {
+    "aiNumber": "AI-597",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "50010553 1298C-SHAFT 5-6 SHAFT1298C",
+    "partNo": "50010553(5/6)"
+  },
+  {
+    "aiNumber": "AI-599",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "279701109901"
+  },
+  {
+    "aiNumber": "AI-600",
+    "totalSchedule": 200,
+    "machineCategory": "Sliding Head",
+    "partName": "ADAPTER 253418179920",
+    "partNo": "253418179920"
+  },
+  {
+    "aiNumber": "AI-601",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN BOQP A029S733",
+    "partNo": "A029S733"
+  },
+  {
+    "aiNumber": "AI-602",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "570901158402"
+  },
+  {
+    "aiNumber": "AI-603",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "4624304"
+  },
+  {
+    "aiNumber": "AI-604",
+    "totalSchedule": 0,
+    "machineCategory": "VMC / Milling",
+    "partName": "DVO.007.113.0PR UNION ADAPTOR",
+    "partNo": "DV0.007.113.0.PR"
+  },
+  {
+    "aiNumber": "AI-605",
+    "totalSchedule": 3500,
+    "machineCategory": "Sliding Head",
+    "partName": "570901139902 CLAMP OIL SUM MOUNT",
+    "partNo": "253420126801"
+  },
+  {
+    "aiNumber": "AI-606",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "INSERT 581326836501",
+    "partNo": "581326836501"
+  },
+  {
+    "aiNumber": "AI-607",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "541231906903"
+  },
+  {
+    "aiNumber": "AI-608",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "M897-02"
+  },
+  {
+    "aiNumber": "AI-609",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "540331908401"
+  },
+  {
+    "aiNumber": "AI-610",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "FY602311"
+  },
+  {
+    "aiNumber": "AI-611",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SLEEVE BOTTOM (A6 CNG/H2) FY602211",
+    "partNo": "540431908403"
+  },
+  {
+    "aiNumber": "AI-612",
+    "totalSchedule": 25000,
+    "machineCategory": "Sliding Head",
+    "partName": "REVERSE IDLER SHAFT 285626357902",
+    "partNo": "285626357902"
+  },
+  {
+    "aiNumber": "AI-613",
+    "totalSchedule": 7800,
+    "machineCategory": "Sliding Head",
+    "partName": "SOLID DOWEL ( REED PLATE)570501154802",
+    "partNo": "570501154802"
+  },
+  {
+    "aiNumber": "AI-614",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "LOCATING PIN HEADBOX 281684106702",
+    "partNo": "281684106702"
+  },
+  {
+    "aiNumber": "AI-615",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "8551007148"
+  },
+  {
+    "aiNumber": "AI-617",
+    "totalSchedule": 1050,
+    "machineCategory": "CNC",
+    "partName": "SLEEVE FOR CYL.HEAD INJETOR BORE -GP3.005.22.0.PR",
+    "partNo": "GP3.005.22.0.PR"
+  },
+  {
+    "aiNumber": "AI-618",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BOSS GEAR SHIFT BRACKET 264126813502",
+    "partNo": "264126813502"
+  },
+  {
+    "aiNumber": "AI-619",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "ADAPTER (FOR BREATHER)266433159904",
+    "partNo": "266433159904"
+  },
+  {
+    "aiNumber": "AI-620",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "DETENT SELECTOR/SHIFTER 271526716713",
+    "partNo": "271526716713"
+  },
+  {
+    "aiNumber": "AI-621",
+    "totalSchedule": 5000,
+    "machineCategory": "Sliding Head",
+    "partName": "TUBE-FROM CRANKCASE 278901106901",
+    "partNo": "278901106901"
+  },
+  {
+    "aiNumber": "AI-622",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "570920126914"
+  },
+  {
+    "aiNumber": "AI-623",
+    "totalSchedule": 2114,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN SPRING FRONT 282132106701",
+    "partNo": "282132106701"
+  },
+  {
+    "aiNumber": "AI-624",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "253409136945"
+  },
+  {
+    "aiNumber": "AI-625",
+    "totalSchedule": 0,
+    "machineCategory": "VMC / Milling",
+    "partName": "THREADED PIN 584626516702",
+    "partNo": "584626516702"
+  },
+  {
+    "aiNumber": "AI-626",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "278901136907 TUBE VACUM PUMP",
+    "partNo": "278901136907"
+  },
+  {
+    "aiNumber": "AI-627",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "ADAPTER 584626903401",
+    "partNo": "10006684"
+  },
+  {
+    "aiNumber": "AI-628",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "NIPPLE 573501156901",
+    "partNo": "573501156901"
+  },
+  {
+    "aiNumber": "AI-629",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "COTTER PIN 550533109901",
+    "partNo": "550533109901"
+  },
+  {
+    "aiNumber": "AI-630",
+    "totalSchedule": 7000,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL PIN 272425606707",
+    "partNo": "272425606707"
+  },
+  {
+    "aiNumber": "AI-632",
+    "totalSchedule": 12000,
+    "machineCategory": "Sliding Head",
+    "partName": "TUBE 553049206908",
+    "partNo": "553049206908"
+  },
+  {
+    "aiNumber": "AI-633",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 271526716711",
+    "partNo": "271526716711"
+  },
+  {
+    "aiNumber": "AI-634",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "13050505256"
+  },
+  {
+    "aiNumber": "AI-636",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT WITH FLANGE M14X1.5 F2S05311",
+    "partNo": "F2S05311"
+  },
+  {
+    "aiNumber": "AI-638",
+    "totalSchedule": 30000,
+    "machineCategory": "Sliding Head",
+    "partName": "285526513401 COLLAR BUSH FOR SHIFTER FORK",
+    "partNo": "285526513401"
+  },
+  {
+    "aiNumber": "AI-639",
+    "totalSchedule": 50000,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "285526513402"
+  },
+  {
+    "aiNumber": "AI-640",
+    "totalSchedule": 1089,
+    "machineCategory": "Sliding Head",
+    "partName": "3212610031 ADAPTOR",
+    "partNo": "3212610031"
+  },
+  {
+    "aiNumber": "AI-641",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M12X1.5 F2S04611",
+    "partNo": "F2S05911"
+  },
+  {
+    "aiNumber": "AI-642",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M12X1.5 F2S04611",
+    "partNo": "F2S06011"
+  },
+  {
+    "aiNumber": "AI-643",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M10*1.5",
+    "partNo": "F2S06111"
+  },
+  {
+    "aiNumber": "AI-644",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "278918133202"
+  },
+  {
+    "aiNumber": "AI-645",
+    "totalSchedule": 8000,
+    "machineCategory": "Sliding Head",
+    "partName": "TUBE OIL SUMP TO HOSE 278901136905",
+    "partNo": "278901136905"
+  },
+  {
+    "aiNumber": "AI-646",
+    "totalSchedule": 30000,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER 278914118604",
+    "partNo": "278914118604"
+  },
+  {
+    "aiNumber": "AI-647",
+    "totalSchedule": 47000,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER - 570914118601",
+    "partNo": "570914118601"
+  },
+  {
+    "aiNumber": "AI-648",
+    "totalSchedule": 6000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M8 X 1 F2S04011",
+    "partNo": "F2S04011"
+  },
+  {
+    "aiNumber": "AI-649",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F2S04111"
+  },
+  {
+    "aiNumber": "AI-650",
+    "totalSchedule": 4000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M10X1X19L F2S03711",
+    "partNo": "F2S03711"
+  },
+  {
+    "aiNumber": "AI-651",
+    "totalSchedule": 20000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M10X1 F2S04211",
+    "partNo": "F2S04211"
+  },
+  {
+    "aiNumber": "AI-652",
+    "totalSchedule": 20000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOILT M10X1.5F2S04311",
+    "partNo": "F2S04311"
+  },
+  {
+    "aiNumber": "AI-653",
+    "totalSchedule": 16000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M10X1.5 F2S04411",
+    "partNo": "F2S04411"
+  },
+  {
+    "aiNumber": "AI-654",
+    "totalSchedule": 16000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M10X1.5 F2S04511",
+    "partNo": "F2S04511"
+  },
+  {
+    "aiNumber": "AI-655",
+    "totalSchedule": 16000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M12X1.5 F2S04611",
+    "partNo": "F2S04611"
+  },
+  {
+    "aiNumber": "AI-656",
+    "totalSchedule": 66000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M14X1.5 F2S04711",
+    "partNo": "F2S04711"
+  },
+  {
+    "aiNumber": "AI-657",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M14X1.5 4811 F2S04811",
+    "partNo": "F2S04811"
+  },
+  {
+    "aiNumber": "AI-658",
+    "totalSchedule": 12300,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M14X1.5 4911 F2S04911",
+    "partNo": "F2S04911"
+  },
+  {
+    "aiNumber": "AI-659",
+    "totalSchedule": 24000,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M16X1.5F2S05011",
+    "partNo": "F2S05011"
+  },
+  {
+    "aiNumber": "AI-660",
+    "totalSchedule": 25000,
+    "machineCategory": "Sliding Head",
+    "partName": "Sph. Washer 570601169201",
+    "partNo": "570601169201"
+  },
+  {
+    "aiNumber": "AI-661",
+    "totalSchedule": 10000,
+    "machineCategory": "Sliding Head",
+    "partName": "CYLINDRICAL PIN (CLUTCH)253403114802",
+    "partNo": "253403114802"
+  },
+  {
+    "aiNumber": "AI-663",
+    "totalSchedule": 100,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER FOR POINTER 252203138602",
+    "partNo": "252203138602"
+  },
+  {
+    "aiNumber": "AI-664",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "284563218299"
+  },
+  {
+    "aiNumber": "AI-665",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "265944806805"
+  },
+  {
+    "aiNumber": "AI-666",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SOCKET 269644806801",
+    "partNo": "269644806801"
+  },
+  {
+    "aiNumber": "AI-667",
+    "totalSchedule": 400,
+    "machineCategory": "Sliding Head",
+    "partName": "COUPLING BODY 16420800600",
+    "partNo": "16420800600"
+  },
+  {
+    "aiNumber": "AI-668",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "266733153402"
+  },
+  {
+    "aiNumber": "AI-669",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "NEUTRAL DETENT PLUG 285526516501",
+    "partNo": "285526516501"
+  },
+  {
+    "aiNumber": "AI-670",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER 254723118601",
+    "partNo": "254723118601"
+  },
+  {
+    "aiNumber": "AI-671",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BENJO 570618179905",
+    "partNo": "570618179905"
+  },
+  {
+    "aiNumber": "AI-672",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "550247106914"
+  },
+  {
+    "aiNumber": "AI-673",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "254901154801"
+  },
+  {
+    "aiNumber": "AI-674",
+    "totalSchedule": 6500,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 252325106701",
+    "partNo": "252325106701"
+  },
+  {
+    "aiNumber": "AI-675",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 66MM LENGTH 252725106701",
+    "partNo": "252725106701"
+  },
+  {
+    "aiNumber": "AI-676",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "278950106904"
+  },
+  {
+    "aiNumber": "AI-677",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "289833106503"
+  },
+  {
+    "aiNumber": "AI-678",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 289840306701",
+    "partNo": "289840306701"
+  },
+  {
+    "aiNumber": "AI-679",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "278920128001"
+  },
+  {
+    "aiNumber": "AI-680",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "252403138601"
+  },
+  {
+    "aiNumber": "AI-681",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "271526716710"
+  },
+  {
+    "aiNumber": "AI-682",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "284542706702"
+  },
+  {
+    "aiNumber": "AI-683",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "264126407902"
+  },
+  {
+    "aiNumber": "AI-684",
+    "totalSchedule": 244,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "264142708603"
+  },
+  {
+    "aiNumber": "AI-685",
+    "totalSchedule": 20000,
+    "machineCategory": "CNC",
+    "partName": "RIVET (T0215CUF0330N)",
+    "partNo": "T0215cuf0330n"
+  },
+  {
+    "aiNumber": "AI-686",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "BALL HEAD PIN ENG. MTG 278901156703",
+    "partNo": "278901156703"
+  },
+  {
+    "aiNumber": "AI-687",
+    "totalSchedule": 12716,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN 265232403501",
+    "partNo": "265232403501"
+  },
+  {
+    "aiNumber": "AI-688",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "254901143201"
+  },
+  {
+    "aiNumber": "AI-689",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SPARE WHEEL NUT(A/F19)270140306501",
+    "partNo": "270140306501"
+  },
+  {
+    "aiNumber": "AI-690",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN (B) 252701146701",
+    "partNo": "252701146701"
+  },
+  {
+    "aiNumber": "AI-691",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "279905119201"
+  },
+  {
+    "aiNumber": "AI-692",
+    "totalSchedule": 1000,
+    "machineCategory": "Sliding Head",
+    "partName": "GREASE CUP AM5-S 17175000054",
+    "partNo": "17175000054"
+  },
+  {
+    "aiNumber": "AI-693",
+    "totalSchedule": 300,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "265728509201"
+  },
+  {
+    "aiNumber": "AI-694",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "DOWEL PIN X0913415",
+    "partNo": "X0913415"
+  },
+  {
+    "aiNumber": "AI-695",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "265446209204"
+  },
+  {
+    "aiNumber": "AI-696",
+    "totalSchedule": 100540,
+    "machineCategory": "Sliding Head",
+    "partName": "WASHER (M13X34X2.5) 00934064650E",
+    "partNo": "00934064650E"
+  },
+  {
+    "aiNumber": "AI-697",
+    "totalSchedule": 70950,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "00936002420E"
+  },
+  {
+    "aiNumber": "AI-699",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "257442908602"
+  },
+  {
+    "aiNumber": "AI-700",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "264032908401"
+  },
+  {
+    "aiNumber": "AI-701",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "NUT 550732403402",
+    "partNo": "550732403402"
+  },
+  {
+    "aiNumber": "AI-702",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "PIN FOR BANJO GP3.001.26.0.PR",
+    "partNo": "GP3.001.26.0.PR"
+  },
+  {
+    "aiNumber": "AI-703",
+    "totalSchedule": 1740,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT ( FOR OIL SUPPLY)GP3.001.28.0.PR",
+    "partNo": "GP3.001.28.0.PR"
+  },
+  {
+    "aiNumber": "AI-704",
+    "totalSchedule": 1470,
+    "machineCategory": "CNC",
+    "partName": "PLUG FOR BANJO GP3.001.27.0.PR",
+    "partNo": "GP3.001.27.0.PR"
+  },
+  {
+    "aiNumber": "AI-705",
+    "totalSchedule": 55000,
+    "machineCategory": "Sliding Head",
+    "partName": "PIN STOP 5563761",
+    "partNo": "5563761"
+  },
+  {
+    "aiNumber": "AI-706",
+    "totalSchedule": 6000,
+    "machineCategory": "CNC",
+    "partName": "PLUG ORIFACE 5369093",
+    "partNo": "5369093"
+  },
+  {
+    "aiNumber": "AI-707",
+    "totalSchedule": 1100,
+    "machineCategory": "Sliding Head",
+    "partName": "SOCKET(RETURN PORT)265944806810",
+    "partNo": "265944806810"
+  },
+  {
+    "aiNumber": "AI-708",
+    "totalSchedule": 117,
+    "machineCategory": "Sliding Head",
+    "partName": "DOWEL PIN LOWER SADDLE 265732106701",
+    "partNo": "265732106701"
+  },
+  {
+    "aiNumber": "AI-709",
+    "totalSchedule": 2644,
+    "machineCategory": "Sliding Head",
+    "partName": "ADJUSTING PIN",
+    "partNo": "583635308001"
+  },
+  {
+    "aiNumber": "AI-710",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "252515148603"
+  },
+  {
+    "aiNumber": "AI-713",
+    "totalSchedule": 2000,
+    "machineCategory": "Sliding Head",
+    "partName": "21322500004P13P SHIFTER SHAFT 3RD/4TH",
+    "partNo": "21322500004P"
+  },
+  {
+    "aiNumber": "AI-714",
+    "totalSchedule": 1200,
+    "machineCategory": "Sliding Head",
+    "partName": "21322500003P13P SHIFTER SHAFT 1ST/2ND",
+    "partNo": "21322500003P"
+  },
+  {
+    "aiNumber": "AI-715",
+    "totalSchedule": 3200,
+    "machineCategory": "Sliding Head",
+    "partName": "21322500005P13P SHIFTER SHAFT 5TH REV",
+    "partNo": "21322500005P"
+  },
+  {
+    "aiNumber": "AI-718",
+    "totalSchedule": 1500,
+    "machineCategory": "Sliding Head",
+    "partName": "BANJO BOLT M20X1.5 F2S05411",
+    "partNo": "F2S05411"
+  },
+  {
+    "aiNumber": "AI-722",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "HOLDER ( BELLOW SHIFTER SHAFT) 285426108208",
+    "partNo": "285426108208"
+  },
+  {
+    "aiNumber": "AI-723",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "FORK HEAD 8 X 16 17273408169",
+    "partNo": "STD16320/17273408169"
+  },
+  {
+    "aiNumber": "AI-724",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "REVERSE IDLER SHAFT 585726357902",
+    "partNo": "585726357902"
+  },
+  {
+    "aiNumber": "AI-725",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "FY600210"
+  },
+  {
+    "aiNumber": "AI-726",
+    "totalSchedule": 0,
+    "machineCategory": "CNC",
+    "partName": "Precision Turned Part",
+    "partNo": "X51605400001"
+  },
+  {
+    "aiNumber": "AI-727",
+    "totalSchedule": 700,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "570914118602"
+  },
+  {
+    "aiNumber": "AI-728",
+    "totalSchedule": 500,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "570914118603"
+  },
+  {
+    "aiNumber": "AI-729",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "252718179928"
+  },
+  {
+    "aiNumber": "AI-730",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "5627248"
+  },
+  {
+    "aiNumber": "AI-731",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "2715115"
+  },
+  {
+    "aiNumber": "AI-732",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "ADAPTOR GP3.048.16.0.PR",
+    "partNo": "-"
+  },
+  {
+    "aiNumber": "AI-733",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "DRIVE SHAFT 574101177901",
+    "partNo": "574101177901"
+  },
+  {
+    "aiNumber": "AI-736",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SPACER 574101154401",
+    "partNo": "574101154401"
+  },
+  {
+    "aiNumber": "AI-737",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PROTECTIVE SLEEVE UPPER 574101158403",
+    "partNo": "574101158403"
+  },
+  {
+    "aiNumber": "AI-739",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "PROTECTIVE SLEEVE LOWER 574101158404",
+    "partNo": "574101158404"
+  },
+  {
+    "aiNumber": "AI-740",
+    "totalSchedule": 3000,
+    "machineCategory": "Sliding Head",
+    "partName": "WASHER FOR RELAY ARM 556446309202 - 5000000277",
+    "partNo": "556446309202"
+  },
+  {
+    "aiNumber": "AI-741",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "9823822877 AXE SERTIR SPH 10",
+    "partNo": "9823823780"
+  },
+  {
+    "aiNumber": "AI-744",
+    "totalSchedule": 15000,
+    "machineCategory": "Sliding Head",
+    "partName": "9811552380 AXE ROTULE EQUI VOLET VISSEE",
+    "partNo": "9811552380"
+  },
+  {
+    "aiNumber": "AI-745",
+    "totalSchedule": 634,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT REVERSE IDLER GEAR 285426357901",
+    "partNo": "285426357901"
+  },
+  {
+    "aiNumber": "AI-746",
+    "totalSchedule": 634,
+    "machineCategory": "Sliding Head",
+    "partName": "SHIFTER SHAFT 3/4",
+    "partNo": "285426517902"
+  },
+  {
+    "aiNumber": "AI-747",
+    "totalSchedule": 634,
+    "machineCategory": "Sliding Head",
+    "partName": "SHIFTER SHAFT 5 TH",
+    "partNo": "285426517903"
+  },
+  {
+    "aiNumber": "AI-748",
+    "totalSchedule": 634,
+    "machineCategory": "Sliding Head",
+    "partName": "SHIFTER SHAFT (1ST/2ND) 285426517904",
+    "partNo": "285426517904"
+  },
+  {
+    "aiNumber": "AI-759",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3146115"
+  },
+  {
+    "aiNumber": "AI-760",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "Precision Turned Part",
+    "partNo": "F3147115"
+  },
+  {
+    "aiNumber": "AI-764",
+    "totalSchedule": 0,
+    "machineCategory": "Sliding Head",
+    "partName": "SHAFT REVERSE IDLER GEAR 285426357901",
+    "partNo": "268426719921"
+  },
+  {
+    "aiNumber": "AI-767",
+    "totalSchedule": 5010,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (13 HEX M8X1.25)",
+    "partNo": "50.504.01.000"
+  },
+  {
+    "aiNumber": "AI-768",
+    "totalSchedule": 3250,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (14HEX M10X1.5)",
+    "partNo": "50.504.02.000"
+  },
+  {
+    "aiNumber": "AI-769",
+    "totalSchedule": 2350,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (17HEX M12X1.5)",
+    "partNo": "50.504.03.00"
+  },
+  {
+    "aiNumber": "AI-770",
+    "totalSchedule": 1880,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT ( 22HEX M16X1.5)",
+    "partNo": "50.504.05.000"
+  },
+  {
+    "aiNumber": "AI-771",
+    "totalSchedule": 500,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (30HEX M22X1.5)",
+    "partNo": "50.504.07.000"
+  },
+  {
+    "aiNumber": "AI-772",
+    "totalSchedule": 670,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (17HEX M10X1.5)",
+    "partNo": "34.023.06.0.00"
+  },
+  {
+    "aiNumber": "AI-773",
+    "totalSchedule": 6850,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (13HEX M8X1)",
+    "partNo": "03.027.04.0.00"
+  },
+  {
+    "aiNumber": "AI-775",
+    "totalSchedule": 1490,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (17HEX M12X1.5)",
+    "partNo": "F6.001.87.0.00"
+  },
+  {
+    "aiNumber": "AI-776",
+    "totalSchedule": 2110,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (12HEX 8X1)",
+    "partNo": "F6.007.31.0.00"
+  },
+  {
+    "aiNumber": "AI-777",
+    "totalSchedule": 1950,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (13HEX M8X1)",
+    "partNo": "02.037.06.0.00"
+  },
+  {
+    "aiNumber": "AI-778",
+    "totalSchedule": 7000,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (16 ROUND M10X1)",
+    "partNo": "03.660.07.0.00"
+  },
+  {
+    "aiNumber": "AI-779",
+    "totalSchedule": 4590,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (CK45 13HEX M8X1.25)",
+    "partNo": "DV0.001.09.0.00"
+  },
+  {
+    "aiNumber": "AI-780",
+    "totalSchedule": 15000,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT(19HEX M14X1.5)",
+    "partNo": "50.504.04.000"
+  },
+  {
+    "aiNumber": "AI-782",
+    "totalSchedule": 820,
+    "machineCategory": "CNC",
+    "partName": "BANJO BOLT (17 HEX M10X1.5 ) ID TAPER",
+    "partNo": "03.040.06.0.00"
+  }
+]

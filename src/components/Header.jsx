@@ -2,48 +2,55 @@ import React, { useState, useEffect } from 'react';
 import { 
   Clock, 
   Users,
-  Database
+  Database,
+  Download
 } from 'lucide-react';
 import { formatTime12h } from '../utils/storage.js';
 
 export function Header({
   currentUser,
+  activeTab,
+  onSelectTab,
   onOpenOperators,
   onOpenSupabase,
   recordsCount,
   isCloudConnected
 }) {
   const [currentTime, setCurrentTime] = useState(formatTime12h());
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(formatTime12h());
     }, 1000);
-    return () => clearInterval(timer);
+
+    const handleBeforeInstallPrompt = (e) => {
+      // Prevent the mini-infobar from appearing on mobile
+      e.preventDefault();
+      // Stash the event so it can be triggered later.
+      setDeferredPrompt(e);
+    };
+
+    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+    };
   }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    // Show the install prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    const { outcome } = await deferredPrompt.userChoice;
+    // We've used the prompt, and can't use it again, throw it away
+    setDeferredPrompt(null);
+  };
 
   return (
     <header className="erp-main-header">
-      {/* Top Status Bar: Clock & Live indicator (Day Shift 7-7 removed as requested) */}
-      <div className="header-top-bar">
-        <div className="top-bar-left">
-          <span className="live-indicator-dot" />
-          <span className="live-status-label">Shopfloor Production Weighing</span>
-          <span className="separator-bullet">•</span>
-          <span className="live-clock-pill">
-            <Clock size={11} />
-            {currentTime}
-          </span>
-        </div>
-
-        <div className="top-bar-right">
-          <div className="sayali-badge">
-            <span className="badge-avatar">👩‍💼</span>
-            <span className="badge-text">{currentUser?.name || 'Sayali Madam'}</span>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navigation Row */}
       <div className="header-nav-row">
         {/* Brand with User's AI Logo & AUTOTURN ERP */}
@@ -64,6 +71,7 @@ export function Header({
 
         {/* Action Controls */}
         <div className="nav-controls-group">
+          
           {/* Cloud Database (Supabase) Setup Button */}
           <button 
             type="button"
@@ -73,17 +81,6 @@ export function Header({
           >
             <Database size={14} className={isCloudConnected ? 'text-emerald-600' : 'text-slate-500'} />
             <span className="btn-text">{isCloudConnected ? 'Cloud Active' : 'Supabase'}</span>
-          </button>
-
-          {/* Operator Master */}
-          <button 
-            type="button"
-            className="header-pill-btn"
-            onClick={onOpenOperators}
-            title="Manage Shopfloor Operators Master List"
-          >
-            <Users size={14} />
-            <span className="btn-text">Operators</span>
           </button>
         </div>
       </div>

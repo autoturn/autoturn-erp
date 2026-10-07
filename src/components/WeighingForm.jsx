@@ -24,7 +24,8 @@ export function WeighingForm({
   machines,
   parts,
   onSaveRecord,
-  onOpenOperatorMaster
+  onOpenOperatorMaster,
+  onOpenMachineMaster
 }) {
   // Form State (All clean, no hardcoded sample values)
   const [date, setDate] = useState(getTodayDateString());
@@ -64,6 +65,8 @@ export function WeighingForm({
     return () => window.removeEventListener('keydown', handleKeyDown);
   });
 
+  const shouldBeListeningRef = useRef(false);
+
   // Web Speech API Initialization
   const startSpeechRecognition = (field = 'master') => {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -80,12 +83,10 @@ export function WeighingForm({
         } catch {}
       }
 
-      const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
       const recognition = new SpeechRecognition();
       
-      // On mobile browsers, continuous=true causes repetitive restarts and OS beep sounds
-      // Setting continuous=true only on desktop, or letting mobile record fluidly until utterance ends
-      recognition.continuous = !isMobile;
+      // Make it strictly continuous on all devices so it takes all data at once
+      recognition.continuous = true;
       recognition.interimResults = true;
       recognition.lang = speechLanguage;
 
@@ -94,6 +95,7 @@ export function WeighingForm({
 
       recognition.onstart = () => {
         isListeningRef.current = true;
+        shouldBeListeningRef.current = true;
         setIsListening(true);
         setActiveFieldMic(field);
         setTranscript('');
@@ -125,6 +127,7 @@ export function WeighingForm({
       recognition.onerror = (event) => {
         console.warn('Speech recognition status:', event.error);
         if (event.error === 'not-allowed') {
+          shouldBeListeningRef.current = false;
           isListeningRef.current = false;
           setIsListening(false);
           setActiveFieldMic(null);
@@ -135,22 +138,25 @@ export function WeighingForm({
       };
 
       recognition.onend = () => {
-        // If on mobile or single-pass mode, finalize speech smoothly without abrupt restarts
-        setIsListening(false);
-        setActiveFieldMic(null);
         isListeningRef.current = false;
-
+        
         // Final pass on whatever was accumulated
         if (fullAccumulatedTranscriptRef.current.trim()) {
           processVoiceInput(fullAccumulatedTranscriptRef.current, activeFieldRef.current);
+          fullAccumulatedTranscriptRef.current = ''; // clear after processing
         }
+
+        shouldBeListeningRef.current = false;
+        setIsListening(false);
+        setActiveFieldMic(null);
       };
 
       recognitionRef.current = recognition;
-      isListeningRef.current = true;
+      shouldBeListeningRef.current = true;
       recognition.start();
     } catch (err) {
       console.error('Speech recognition start error:', err);
+      shouldBeListeningRef.current = false;
       isListeningRef.current = false;
       setIsListening(false);
       setActiveFieldMic(null);
@@ -158,6 +164,7 @@ export function WeighingForm({
   };
 
   const stopSpeechRecognition = () => {
+    shouldBeListeningRef.current = false;
     isListeningRef.current = false;
     if (recognitionRef.current) {
       try {
@@ -569,14 +576,23 @@ export function WeighingForm({
                 <Cpu size={14} className="text-indigo-600" />
                 <span>4. Machine Type / Code</span>
               </label>
-              <button
-                type="button"
-                className={`mic-circle-btn ${activeFieldMic === 'machine' ? 'active' : ''}`}
-                onClick={() => startSpeechRecognition('machine')}
-                title="Speak Machine Name"
-              >
-                <Mic size={12} />
-              </button>
+              <div className="field-header-actions">
+                <button 
+                  type="button" 
+                  className="link-btn-text"
+                  onClick={onOpenMachineMaster}
+                >
+                  + Master List
+                </button>
+                <button
+                  type="button"
+                  className={`mic-circle-btn ${activeFieldMic === 'machine' ? 'active' : ''}`}
+                  onClick={() => startSpeechRecognition('machine')}
+                  title="Speak Machine Name"
+                >
+                  <Mic size={12} />
+                </button>
+              </div>
             </div>
 
             <input

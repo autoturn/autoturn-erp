@@ -20,11 +20,12 @@ import { Header } from './components/Header.jsx';
 import { WeighingForm } from './components/WeighingForm.jsx';
 import { RecordsList } from './components/RecordsList.jsx';
 import { OperatorMasterModal } from './components/OperatorMasterModal.jsx';
+import { MachineMasterModal } from './components/MachineMasterModal.jsx';
 import { SupabaseConfigModal } from './components/SupabaseConfigModal.jsx';
 import { BottomNav } from './components/BottomNav.jsx';
 
 export default function App() {
-  // Permanent default user: Sayali Madam (Production Incharge)
+  // Permanent default user for shopfloor weighing desk: Sayali Madam (Production Incharge)
   const currentUser = ERP_USERS[0];
 
   const [records, setRecords] = useState(() => {
@@ -36,12 +37,15 @@ export default function App() {
     loadFromStorage(STORAGE_KEYS.OPERATORS, INITIAL_OPERATOR_MASTER)
   );
 
-  const [machines] = useState(INITIAL_MACHINES);
+  const [machines, setMachines] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.MACHINES, INITIAL_MACHINES)
+  );
   const [parts] = useState(INITIAL_PARTS);
   const [activeTab, setActiveTab] = useState('form'); // 'form' | 'records'
 
-  // Modals (Login modal completely removed)
+  // Modals
   const [isOperatorsOpen, setIsOperatorsOpen] = useState(false);
+  const [isMachinesOpen, setIsMachinesOpen] = useState(false);
   const [isSupabaseOpen, setIsSupabaseOpen] = useState(false);
   const [isCloudConnected, setIsCloudConnected] = useState(() => {
     const cfg = getStoredSupabaseConfig();
@@ -56,6 +60,10 @@ export default function App() {
   useEffect(() => {
     saveToStorage(STORAGE_KEYS.OPERATORS, operatorMaster);
   }, [operatorMaster]);
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.MACHINES, machines);
+  }, [machines]);
 
   // Handlers with automatic Supabase Cloud Sync
   const handleSaveRecord = async (newRecord) => {
@@ -94,27 +102,48 @@ export default function App() {
     }
   };
 
+  const handleAddMachine = (newMachine) => {
+    setMachines(prev => [newMachine, ...prev]);
+  };
+
+  const handleDeleteMachine = (id) => {
+    if (window.confirm('Delete machine from master list?')) {
+      setMachines(prev => prev.filter(m => m.id !== id && m.code !== id));
+    }
+  };
+
+  const handleResetMachines = () => {
+    if (window.confirm('Reset machine list to defaults?')) {
+      setMachines(INITIAL_MACHINES);
+    }
+  };
+
   const handleBottomTabSelect = (tab) => {
     if (tab === 'operators') {
       setIsOperatorsOpen(true);
+    } else if (tab === 'machines') {
+      setIsMachinesOpen(true);
     } else {
       setActiveTab(tab);
     }
   };
 
+  // Dedicated Shopfloor Weighing Desk (Sayali Madam - Direct Uncluttered Access)
   return (
     <div className="erp-app-wrapper">
       <div className="erp-app-container">
         {/* Main AUTOTURN ERP Header */}
         <Header
           currentUser={currentUser}
+          activeTab={activeTab}
+          onSelectTab={setActiveTab}
           onOpenOperators={() => setIsOperatorsOpen(true)}
           onOpenSupabase={() => setIsSupabaseOpen(true)}
           recordsCount={records.length}
           isCloudConnected={isCloudConnected}
         />
 
-        {/* Tab Navigation Segmented Bar */}
+        {/* Tab Navigation Segmented Bar (Only 2 tabs for Sayali Madam: Weighing Form & Shift Records) */}
         <div className="erp-tab-bar">
           <button
             type="button"
@@ -142,6 +171,7 @@ export default function App() {
               parts={parts}
               onSaveRecord={handleSaveRecord}
               onOpenOperatorMaster={() => setIsOperatorsOpen(true)}
+              onOpenMachineMaster={() => setIsMachinesOpen(true)}
             />
           ) : (
             <RecordsList
@@ -160,6 +190,7 @@ export default function App() {
           onSelectTab={handleBottomTabSelect}
           recordsCount={records.length}
           operatorsCount={operatorMaster.length}
+          machinesCount={machines.length}
         />
       </div>
 
@@ -172,6 +203,17 @@ export default function App() {
         onDeleteOperator={handleDeleteOperator}
         onResetOperators={handleResetOperators}
       />
+
+      {/* Machine Master Modal */}
+      <MachineMasterModal
+        isOpen={isMachinesOpen}
+        onClose={() => setIsMachinesOpen(false)}
+        machines={machines}
+        onAddMachine={handleAddMachine}
+        onDeleteMachine={handleDeleteMachine}
+        onResetMachines={handleResetMachines}
+      />
+
 
       {/* Supabase Cloud Connection Modal */}
       <SupabaseConfigModal

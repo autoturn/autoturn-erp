@@ -128,6 +128,48 @@ export async function deleteRecordFromSupabase(recordId) {
   }
 }
 
+// Fetch all weighing records (used by the separate Production ERP page)
+export async function fetchRecordsFromSupabase() {
+  const sb = getSupabase();
+  if (!sb) return null;
+
+  try {
+    const all = [];
+    const pageSize = 1000;
+    for (let from = 0; from < 20000; from += pageSize) {
+      const { data, error } = await sb
+        .from('production_weighing_records')
+        .select('*')
+        .order('timestamp', { ascending: false })
+        .range(from, from + pageSize - 1);
+      if (error) {
+        console.warn('Supabase fetch error:', error.message);
+        return null;
+      }
+      all.push(...(data || []));
+      if (!data || data.length < pageSize) break;
+    }
+    return all.map(r => ({
+      id: r.id,
+      date: r.date,
+      shift: r.shift,
+      operatorName: r.operator_name,
+      operatorId: r.operator_id,
+      machineType: r.machine_type,
+      aiNumber: r.ai_number,
+      quantity: Number(r.quantity) || 0,
+      unit: r.unit || 'pcs',
+      entryBy: r.entry_by,
+      timestamp: r.timestamp,
+      method: r.method,
+      status: r.status
+    }));
+  } catch (err) {
+    console.warn('Supabase fetch failed:', err);
+    return null;
+  }
+}
+
 // Test connection
 export async function testSupabaseConnection(url, key) {
   try {

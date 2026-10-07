@@ -1,7 +1,7 @@
 import React from 'react';
-import { Scale, FileText, Users } from 'lucide-react';
+import { Scale, FileText, Users, Cpu } from 'lucide-react';
 
-export function BottomNav({ activeTab, onSelectTab, recordsCount, operatorsCount }) {
+export function BottomNav({ activeTab, onSelectTab, recordsCount, operatorsCount, machinesCount }) {
   return (
     <nav className="erp-bottom-nav">
       <button 
