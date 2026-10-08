@@ -169,6 +169,7 @@ export default function App() {
               operatorMaster={operatorMaster}
               machines={machines}
               parts={parts}
+              records={records}
               onSaveRecord={handleSaveRecord}
               onOpenOperatorMaster={() => setIsOperatorsOpen(true)}
               onOpenMachineMaster={() => setIsMachinesOpen(true)}

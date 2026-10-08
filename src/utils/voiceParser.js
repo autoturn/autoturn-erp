@@ -318,7 +318,7 @@ export function parseWeighingVoiceCommand(transcript, { operatorMaster, machines
 
   // STEP B: Detect Weighted Quantity
   // Priority 1: Direct "qty found [number]" or variations (cutie found, q t found, qty formed, etc.)
-  const qtyFoundRegex = /\b(?:qty\s*found|quantity\s*found|qty\s*formed|quantity\s*formed|qt\s*found|cutie\s*found|q\s*t\s*found|qty\s*sound|qty\s*round|qty\s*pound|weight\s*found|weighted\s*qty|weighted\s*quantity|found\s*qty|found\s*quantity)[\s:]*([0-9]+(?:\.[0-9]+)?)\b/i;
+  const qtyFoundRegex = /\b(?:qty\s*found|quantity\s*found|qty\s*formed|quantity\s*formed|qt\s*found|cutie\s*found|q\s*t\s*found|qty\s*sound|qty\s*round|qty\s*pound|found\s*qty|found\s*quantity)[\s:]*([0-9]+(?:\.[0-9]+)?)\b/i;
   const foundMatch = workingText.match(qtyFoundRegex);
 
   let foundQty = null;
@@ -327,9 +327,9 @@ export function parseWeighingVoiceCommand(transcript, { operatorMaster, machines
     workingText = workingText.replace(foundMatch[0], ' ');
   }
 
-  // Priority 2: General Quantity Prefixes ("quantity 500", "qty 500", "count 500", "pieces 500", "voice 500", "wazan 500")
+  // Priority 2: General Quantity Prefixes ("quantity 500", "qty 500", "count 500", "pieces 500", "voice 500")
   if (foundQty === null) {
-    const generalQtyRegex = /\b(?:quantity|qty|count|pieces|pcs|nug|nag|weight|vajan|wazan|voice|formed)[\s:]*([0-9]+(?:\.[0-9]+)?)\b/i;
+    const generalQtyRegex = /\b(?:quantity|qty|count|pieces|pcs|nug|nag|voice|formed)[\s:]*([0-9]+(?:\.[0-9]+)?)\b/i;
     const generalMatch = workingText.match(generalQtyRegex);
     if (generalMatch) {
       foundQty = parseFloat(generalMatch[1]);
@@ -372,6 +372,31 @@ export function parseWeighingVoiceCommand(transcript, { operatorMaster, machines
   if (foundQty !== null) {
     detected.quantity = foundQty;
     tokensFound.push({ field: 'Quantity Found', value: `${foundQty} pcs` });
+  }
+
+  // STEP C: Detect Weight in Kg
+  let foundWeight = null;
+  // Prefix weight ("weight 15 kg", "wazan 15.5")
+  const weightPrefixRegex = /\b(?:weight|wazan|vajan|weighted|weighs)[\s:]*([0-9]+(?:\.[0-9]+)?)\s*(?:kg|kgs|kilo|kilograms)?\b/i;
+  const weightPrefixMatch = workingText.match(weightPrefixRegex);
+  if (weightPrefixMatch) {
+    foundWeight = parseFloat(weightPrefixMatch[1]);
+    workingText = workingText.replace(weightPrefixMatch[0], ' ');
+  }
+
+  // Postfix weight ("15 kg", "15.5 kilo")
+  if (foundWeight === null) {
+    const weightPostfixRegex = /\b([0-9]+(?:\.[0-9]+)?)\s*(?:kg|kgs|kilo|kilograms)\b/i;
+    const weightPostfixMatch = workingText.match(weightPostfixRegex);
+    if (weightPostfixMatch) {
+      foundWeight = parseFloat(weightPostfixMatch[1]);
+      workingText = workingText.replace(weightPostfixMatch[0], ' ');
+    }
+  }
+
+  if (foundWeight !== null) {
+    detected.weight = foundWeight;
+    tokensFound.push({ field: 'Weight', value: `${foundWeight} Kg` });
   }
 
   // 7. Action Commands (Save / Submit)

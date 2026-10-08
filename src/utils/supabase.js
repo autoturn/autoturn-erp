@@ -64,6 +64,7 @@ export async function pushRecordToSupabase(record) {
         machine_type: record.machineType,
         ai_number: record.aiNumber,
         quantity: record.quantity,
+        weight: record.weight,
         unit: 'pcs',
         entry_by: record.entryBy || 'Sayali Madam',
         timestamp: record.timestamp,
@@ -97,6 +98,7 @@ export async function updateRecordInSupabase(record) {
         machine_type: record.machineType,
         ai_number: record.aiNumber,
         quantity: record.quantity,
+        weight: record.weight,
         status: record.status || 'Verified'
       })
       .eq('id', record.id);

@@ -23,6 +23,7 @@ export function WeighingForm({
   operatorMaster,
   machines,
   parts,
+  records = [],
   onSaveRecord,
   onOpenOperatorMaster,
   onOpenMachineMaster
@@ -35,6 +36,7 @@ export function WeighingForm({
   const [machineType, setMachineType] = useState('');
   const [aiNumber, setAiNumber] = useState('');
   const [quantity, setQuantity] = useState('');
+  const [weight, setWeight] = useState('');
   const [unit] = useState('pcs');
 
   // Speech Recognition State
@@ -106,7 +108,7 @@ export function WeighingForm({
         let interimText = '';
         let finalizedText = '';
 
-        for (let i = 0; i < event.results.length; i++) {
+        for (let i = event.resultIndex; i < event.results.length; i++) {
           const res = event.results[i];
           if (res.isFinal) {
             finalizedText += res[0].transcript + ' ';
@@ -115,12 +117,10 @@ export function WeighingForm({
           }
         }
 
-        const combinedText = (finalizedText + interimText).trim();
-        if (combinedText.length > 0) {
-          setTranscript(combinedText);
-          fullAccumulatedTranscriptRef.current = combinedText;
-          // Process entire accumulated speech at once
-          processVoiceInput(combinedText, activeFieldRef.current);
+        const newText = (finalizedText + interimText).trim();
+        if (newText.length > 0) {
+          setTranscript(newText);
+          processVoiceInput(newText, activeFieldRef.current);
         }
       };
 
@@ -133,22 +133,24 @@ export function WeighingForm({
           setActiveFieldMic(null);
           setVoiceNotification('Microphone permission blocked. Please allow mic in browser settings.');
         } else if (event.error === 'no-speech') {
-          // Normal timeout if nothing spoken, do not spam alerts
+          // Normal timeout if nothing spoken
         }
       };
 
       recognition.onend = () => {
         isListeningRef.current = false;
         
-        // Final pass on whatever was accumulated
-        if (fullAccumulatedTranscriptRef.current.trim()) {
-          processVoiceInput(fullAccumulatedTranscriptRef.current, activeFieldRef.current);
-          fullAccumulatedTranscriptRef.current = ''; // clear after processing
+        // Auto restart for continuous listening on mobile
+        if (shouldBeListeningRef.current) {
+          try {
+            recognition.start();
+          } catch (e) {
+            console.warn('Failed to restart mic automatically:', e);
+          }
+        } else {
+          setIsListening(false);
+          setActiveFieldMic(null);
         }
-
-        shouldBeListeningRef.current = false;
-        setIsListening(false);
-        setActiveFieldMic(null);
       };
 
       recognitionRef.current = recognition;
@@ -211,6 +213,9 @@ export function WeighingForm({
       if (parsed.detected.quantity !== undefined) {
         setQuantity(parsed.detected.quantity.toString());
       }
+      if (parsed.detected.weight !== undefined) {
+        setWeight(parsed.detected.weight.toString());
+      }
 
       if (parsed.tokensFound.length > 0) {
         setVoiceNotification(`Captured ${parsed.tokensFound.length} field(s)! Say 'Save' or press Enter ↵`);
@@ -267,6 +272,15 @@ export function WeighingForm({
     }
   };
 
+  // Calculate total quantity for the selected AI Number today
+  const aiNumberTotal = useMemo(() => {
+    if (!aiNumber || !records) return 0;
+    const standardAi = aiNumber.toUpperCase().startsWith('AI-') ? aiNumber.toUpperCase() : `AI-${aiNumber}`;
+    return records
+      .filter(r => r.date === date && r.aiNumber === standardAi)
+      .reduce((sum, r) => sum + (r.quantity || 0), 0);
+  }, [aiNumber, records, date]);
+
   // Form submission
   const handleSubmit = (e) => {
     if (e) e.preventDefault();
@@ -289,6 +303,7 @@ export function WeighingForm({
     }
 
     const qtyNum = parseFloat(quantity);
+    const weightNum = weight ? parseFloat(weight) : null;
 
     const newRecord = {
       id: `REC-${Date.now().toString().slice(-4)}`,
@@ -299,6 +314,7 @@ export function WeighingForm({
       machineType,
       aiNumber: aiNumber.toUpperCase().startsWith('AI-') ? aiNumber.toUpperCase() : `AI-${aiNumber}`,
       quantity: qtyNum,
+      weight: weightNum,
       unit: 'pcs',
       entryBy: currentUser.name || 'Sayali Madam',
       timestamp: formatTime12h(),
@@ -321,6 +337,7 @@ export function WeighingForm({
     setMachineType('');
     setAiNumber('');
     setQuantity('');
+    setWeight('');
     setTranscript('');
     setDetectedTokens([]);
     setLastPhoneticMatch(null);
@@ -329,6 +346,7 @@ export function WeighingForm({
 
   const handleReset = () => {
     setQuantity('');
+    setWeight('');
     setAiNumber('');
     setMachineType('');
     setOperatorName('');
@@ -638,6 +656,12 @@ export function WeighingForm({
               placeholder="Enter part / AI number..."
               required
             />
+            {aiNumber.length > 2 && (
+              <div className="qty-summary-tag mt-2 flex items-center gap-1.5 text-xs text-indigo-700 font-medium bg-indigo-50 px-2.5 py-1.5 rounded w-fit border border-indigo-100">
+                <CheckCircle2 size={12} />
+                Today's Total Qty for {aiNumber}: <span className="font-bold">{aiNumberTotal.toLocaleString()} pcs</span>
+              </div>
+            )}
           </div>
 
           {/* Field 6: Production Quantity (Pieces) */}
@@ -670,6 +694,31 @@ export function WeighingForm({
               />
               <div className="qty-unit-badge">
                 <span>Pieces (pcs)</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Field 7: Weight (Kg) - Optional */}
+          <div className="field-card field-col-full">
+            <div className="field-card-header">
+              <label className="field-card-label">
+                <Scale size={14} className="text-emerald-600" />
+                <span>7. Weight (Kg) [Optional]</span>
+              </label>
+            </div>
+
+            <div className="qty-direct-row">
+              <input 
+                type="number"
+                step="0.01"
+                min="0"
+                className="field-input-control qty-main-input mono-font"
+                value={weight}
+                onChange={e => setWeight(e.target.value)}
+                placeholder="Enter weight in kg (e.g. 15.5)"
+              />
+              <div className="qty-unit-badge">
+                <span>Kilograms (Kg)</span>
               </div>
             </div>
           </div>
