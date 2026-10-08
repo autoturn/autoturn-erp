@@ -2,43 +2,46 @@ import React from 'react';
 import { Scale, FileText, Users, Cpu } from 'lucide-react';
 
 export function BottomNav({ activeTab, onSelectTab, recordsCount, operatorsCount, machinesCount }) {
+  const tabs = [
+    {
+      id: 'form',
+      icon: Scale,
+      label: 'Weigh',
+    },
+    {
+      id: 'records',
+      icon: FileText,
+      label: 'Records',
+      count: recordsCount,
+    },
+    {
+      id: 'operators',
+      icon: Users,
+      label: 'Operators',
+      count: operatorsCount,
+      soft: true,
+    },
+  ];
+
   return (
     <nav className="erp-bottom-nav">
-      <button 
-        type="button"
-        className={`bottom-nav-item ${activeTab === 'form' ? 'active' : ''}`}
-        onClick={() => onSelectTab('form')}
-      >
-        <div className="nav-icon-wrap">
-          <Scale size={18} />
-          {activeTab === 'form' && <span className="active-dot" />}
-        </div>
-        <span className="nav-label">Weigh & Enter</span>
-      </button>
-
-      <button 
-        type="button"
-        className={`bottom-nav-item ${activeTab === 'records' ? 'active' : ''}`}
-        onClick={() => onSelectTab('records')}
-      >
-        <div className="nav-icon-wrap">
-          <FileText size={18} />
-          {recordsCount > 0 && <span className="nav-badge">{recordsCount}</span>}
-        </div>
-        <span className="nav-label">Shift Logs</span>
-      </button>
-
-      <button 
-        type="button"
-        className={`bottom-nav-item ${activeTab === 'operators' ? 'active' : ''}`}
-        onClick={() => onSelectTab('operators')}
-      >
-        <div className="nav-icon-wrap">
-          <Users size={18} />
-          <span className="nav-badge-soft">{operatorsCount}</span>
-        </div>
-        <span className="nav-label">Operators</span>
-      </button>
+      {tabs.map(({ id, icon: Icon, label, count, soft }) => (
+        <button
+          key={id}
+          type="button"
+          className={`bottom-nav-item ${activeTab === id ? 'active' : ''}`}
+          onClick={() => onSelectTab(id)}
+        >
+          <div className="nav-icon-wrap">
+            <Icon size={20} strokeWidth={activeTab === id ? 2.5 : 1.8} />
+            {count > 0 && (
+              <span className={soft ? 'nav-badge-soft' : 'nav-badge'}>{count}</span>
+            )}
+            {activeTab === id && <span className="active-dot" />}
+          </div>
+          <span className="nav-label">{label}</span>
+        </button>
+      ))}
     </nav>
   );
 }

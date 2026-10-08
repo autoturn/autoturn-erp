@@ -186,33 +186,33 @@ export function RecordsList({
 
       {/* Dynamic Mini KPI Strip (Clean 3-Card Layout, Weight removed) */}
       <div className="compact-kpi-grid kpi-grid-3">
-        <div className="mini-kpi-card">
-          <div className="mini-kpi-icon bg-indigo-50 text-indigo-600">
+        <div className="mini-kpi-card" style={{ '--kpi-accent': '#4f46e5' }}>
+          <div className="mini-kpi-icon" style={{ background: 'var(--brand-primary-bg)', color: 'var(--brand-primary)' }}>
             <Layers size={14} />
           </div>
           <div className="mini-kpi-content">
             <span className="mini-kpi-label">Entries {hasActiveFilters ? '(Filtered)' : ''}</span>
-            <span className="mini-kpi-val mono-font">{filteredRecords.length}</span>
+            <span className="mini-kpi-val">{filteredRecords.length}</span>
           </div>
         </div>
 
-        <div className="mini-kpi-card">
-          <div className="mini-kpi-icon bg-emerald-50 text-emerald-600">
+        <div className="mini-kpi-card" style={{ '--kpi-accent': '#059669' }}>
+          <div className="mini-kpi-icon" style={{ background: 'var(--brand-emerald-bg)', color: 'var(--brand-emerald)' }}>
             <Scale size={14} />
           </div>
           <div className="mini-kpi-content">
             <span className="mini-kpi-label">Pieces Counted</span>
-            <span className="mini-kpi-val text-emerald-600 mono-font">{totalPieces.toLocaleString()} pcs</span>
+            <span className="mini-kpi-val" style={{ color: 'var(--brand-emerald)' }}>{totalPieces.toLocaleString()}</span>
           </div>
         </div>
 
-        <div className="mini-kpi-card">
-          <div className="mini-kpi-icon bg-amber-50 text-amber-600">
+        <div className="mini-kpi-card" style={{ '--kpi-accent': '#d97706' }}>
+          <div className="mini-kpi-icon" style={{ background: 'var(--brand-amber-bg)', color: 'var(--brand-amber)' }}>
             <User size={14} />
           </div>
           <div className="mini-kpi-content">
             <span className="mini-kpi-label">Active Operators</span>
-            <span className="mini-kpi-val mono-font">{uniqueOperators}</span>
+            <span className="mini-kpi-val">{uniqueOperators}</span>
           </div>
         </div>
       </div>
@@ -471,18 +471,16 @@ export function RecordsList({
             return (
               <div key={r.id} className="compact-record-card">
                 <div className="card-row-top">
-                  <div className="flex items-center gap-2">
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                     <span className="r-date-badge">{r.date} • {r.timestamp}</span>
                     <span className={`table-shift-badge ${isDay ? 'day' : 'night'}`}>
-                      {isDay ? '☀️ Day' : '🌙 Night'}
+                      {isDay ? '☀️' : '🌙'}
                     </span>
                     {r.method === 'Voice Entry' && (
-                      <span className="voice-entry-tag">
-                        <Mic size={10} /> Voice
-                      </span>
+                      <span className="voice-entry-tag"><Mic size={10} /> V</span>
                     )}
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                     <button 
                       type="button"
                       className="btn-edit-compact"
@@ -524,22 +522,19 @@ export function RecordsList({
       {editingRecord && (
         <div className="modal-backdrop" onClick={() => setEditingRecord(null)}>
           <div className="modal-card edit-record-modal" onClick={e => e.stopPropagation()}>
+            <div className="modal-handle-bar"><div className="modal-handle" /></div>
             <div className="modal-header">
               <div className="modal-title-wrap">
-                <div className="modal-icon-badge">
-                  <Edit3 size={18} className="text-indigo-600" />
+                <div className="modal-title-icon" style={{ background: 'var(--brand-primary-bg)', color: 'var(--brand-primary)', width: 32, height: 32, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <Edit3 size={17} />
                 </div>
                 <div>
-                  <h2 className="modal-title">Edit Production Record</h2>
-                  <p className="modal-subtitle">{editingRecord.date} • {editingRecord.timestamp || 'Recorded by Sayali Madam'}</p>
+                  <h2 className="modal-title">Edit Record</h2>
+                  <p className="modal-subtitle">{editingRecord.date} • {editingRecord.timestamp || 'Sayali Madam'}</p>
                 </div>
               </div>
-              <button 
-                type="button"
-                className="modal-close-btn" 
-                onClick={() => setEditingRecord(null)}
-              >
-                <X size={18} />
+              <button type="button" className="modal-close-btn" onClick={() => setEditingRecord(null)}>
+                <X size={17} />
               </button>
             </div>
 

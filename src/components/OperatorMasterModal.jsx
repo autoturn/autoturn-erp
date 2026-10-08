@@ -76,22 +76,23 @@ export function OperatorMasterModal({
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-card modern-op-modal" onClick={e => e.stopPropagation()}>
-        {/* Sleek Modern Header */}
+        <div className="modal-handle-bar"><div className="modal-handle" /></div>
+        {/* Modern Header */}
         <div className="modal-header">
           <div className="modal-title-wrap">
-            <div className="modal-icon-badge">
-              <Users size={18} className="text-indigo-600" />
+            <div className="modal-title-icon" style={{ background: 'var(--brand-primary-bg)', color: 'var(--brand-primary)', width: 32, height: 32, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <Users size={17} />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h2 className="modal-title">Operator Master Directory</h2>
-                <span className="op-count-pill">{operators.length} Registered</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                <h2 className="modal-title">Operator Master</h2>
+                <span className="op-count-pill">{operators.length} Operators</span>
               </div>
-              <p className="modal-subtitle">Shopfloor operators configured with Marathi voice recognition aliases</p>
+              <p className="modal-subtitle">Shopfloor operators with Marathi voice recognition aliases</p>
             </div>
           </div>
           <button className="modal-close-btn" onClick={onClose} title="Close">
-            <X size={18} />
+            <X size={17} />
           </button>
         </div>
 

@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Clock, 
-  Users,
-  Database,
-  Download
-} from 'lucide-react';
-import { formatTime12h } from '../utils/storage.js';
+import { Clock, Database, CheckCircle2, Wifi, WifiOff } from 'lucide-react';
+import { formatTime12h, getCurrentShift } from '../utils/storage.js';
 
 export function Header({
   currentUser,
@@ -17,70 +12,73 @@ export function Header({
   isCloudConnected
 }) {
   const [currentTime, setCurrentTime] = useState(formatTime12h());
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [shift, setShift] = useState(getCurrentShift());
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(formatTime12h());
+      setShift(getCurrentShift());
     }, 1000);
-
-    const handleBeforeInstallPrompt = (e) => {
-      // Prevent the mini-infobar from appearing on mobile
-      e.preventDefault();
-      // Stash the event so it can be triggered later.
-      setDeferredPrompt(e);
-    };
-
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-
-    return () => {
-      clearInterval(timer);
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    };
+    return () => clearInterval(timer);
   }, []);
 
-  const handleInstallClick = async () => {
-    if (!deferredPrompt) return;
-    // Show the install prompt
-    deferredPrompt.prompt();
-    // Wait for the user to respond to the prompt
-    const { outcome } = await deferredPrompt.userChoice;
-    // We've used the prompt, and can't use it again, throw it away
-    setDeferredPrompt(null);
-  };
+  const isDay = shift.includes('Day');
 
   return (
     <header className="erp-main-header">
-      {/* Main Navigation Row */}
+      {/* Status Bar */}
+      <div className="header-status-bar">
+        <div className="status-bar-left">
+          <span className="status-dot" />
+          <span className="status-label">AUTOTURN ERP</span>
+          <span style={{ opacity: 0.5 }}>·</span>
+          <span>Live Production</span>
+        </div>
+        <div className="status-bar-right">
+          <span className="status-clock">{currentTime}</span>
+          <span className="status-shift-pill">
+            {isDay ? '☀️' : '🌙'} {isDay ? 'Day' : 'Night'}
+          </span>
+        </div>
+      </div>
+
+      {/* Main Header Row */}
       <div className="header-nav-row">
-        {/* Brand with User's AI Logo & AUTOTURN ERP */}
         <div className="brand-lockup">
-          <img 
-            src="/logo.png" 
-            alt="AUTOTURN Logo" 
-            className="brand-custom-logo" 
-            onError={(e) => {
-              e.target.style.display = 'none';
-            }}
-          />
-          <div>
-            <h1 className="brand-main-title">AUTOTURN <span className="brand-highlight">ERP</span></h1>
-            <p className="brand-tagline">Precision Shopfloor Weighing Desk</p>
+          <div className="brand-logo-wrap">
+            <img
+              src="/logo.png"
+              alt="AUTOTURN"
+              className="brand-custom-logo"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          </div>
+          <div className="brand-text-group">
+            <h1 className="brand-main-title">
+              AUTOTURN <span className="brand-highlight">ERP</span>
+            </h1>
+            <p className="brand-tagline">Shopfloor Weighing Desk</p>
           </div>
         </div>
 
-        {/* Action Controls */}
         <div className="nav-controls-group">
-          
-          {/* Cloud Database (Supabase) Setup Button */}
-          <button 
+          <button
             type="button"
-            className={`header-pill-btn ${isCloudConnected ? 'connected-cloud' : ''}`}
+            className={`header-icon-btn ${isCloudConnected ? 'cloud-active' : ''}`}
             onClick={onOpenSupabase}
-            title="Configure Supabase Cloud Database"
+            title="Cloud Database"
           >
-            <Database size={14} className={isCloudConnected ? 'text-emerald-600' : 'text-slate-500'} />
-            <span className="btn-text">{isCloudConnected ? 'Cloud Active' : 'Supabase'}</span>
+            {isCloudConnected ? (
+              <>
+                <CheckCircle2 size={13} />
+                <span style={{ display: 'none' }} className="btn-text">Cloud On</span>
+              </>
+            ) : (
+              <>
+                <Database size={13} />
+                <span style={{ display: 'none' }} className="btn-text">Cloud</span>
+              </>
+            )}
           </button>
         </div>
       </div>

@@ -71,24 +71,25 @@ export function MachineMasterModal({
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal-card modern-op-modal" onClick={e => e.stopPropagation()}>
-        {/* Sleek Modern Header */}
+        <div className="modal-handle-bar"><div className="modal-handle" /></div>
+        {/* Modern Header */}
         <div className="modal-header">
           <div className="modal-title-wrap">
-            <div className="modal-icon-badge" style={{ background: 'rgba(14, 165, 233, 0.12)', color: '#0284c7' }}>
-              <Cpu size={18} />
+            <div className="modal-title-icon" style={{ background: 'rgba(14, 165, 233, 0.12)', color: '#0284c7', width: 32, height: 32, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <Cpu size={17} />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h2 className="modal-title">Machine Master Directory</h2>
-                <span className="op-count-pill" style={{ background: 'rgba(14, 165, 233, 0.12)', color: '#0284c7' }}>
-                  {machines.length} Registered
+              <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                <h2 className="modal-title">Machine Master</h2>
+                <span className="op-count-pill" style={{ background: 'rgba(14, 165, 233, 0.12)', color: '#0284c7', border: '1px solid rgba(14,165,233,0.25)' }}>
+                  {machines.length} Machines
                 </span>
               </div>
-              <p className="modal-subtitle">Shopfloor machines configured with voice recognition aliases</p>
+              <p className="modal-subtitle">Shopfloor machines with voice recognition aliases</p>
             </div>
           </div>
           <button className="modal-close-btn" onClick={onClose} title="Close">
-            <X size={18} />
+            <X size={17} />
           </button>
         </div>
 
@@ -207,7 +208,7 @@ export function MachineMasterModal({
                 </div>
               </div>
 
-              <div className="op-input-group mt-3">
+              <div className="op-input-group" style={{ gridColumn: '1/-1', marginTop: 4 }}>
                 <label className="op-input-label">
                   Voice Phonetic Aliases (comma separated)
                   <span className="op-label-hint">Handles voice variations when Sayali Madam speaks</span>
